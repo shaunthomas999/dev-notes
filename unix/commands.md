@@ -23,3 +23,37 @@ Close and open terminal again to see the effect. Note: shell should be in `/etc/
 ### du
 
 * `du -h` - To see disk space usage (physical)
+
+### tree
+
+* `tree .` # prints all the subdirectories.
+* `tree -L 4` # prints up to 4 directories.
+* `tree -I 'test* |docs|bin|lib'` # ignores the directories - test docs bin lib.
+* `tree -P '.sh' --prune` # lists all the .sh files and --prune will remove empty directories from getting printed.
+
+### grep
+
+In the output of first command look for line containing `ls` and without containing `al`. Here `-v` reverse the normal grep functionality.
+
+```bash
+history | grep ls | grep -v al
+```
+
+### test
+
+* Used to test an expression - `test 100 -lt 99 && echo "Yes." || echo "No."` - This will print "No." bcz expression is false.
+* Used to check existence of files and more - `test -e test-security-gateway.log; echo $?` - This will print 0 if the file exists.
+
+Ref: [](https://www.computerhope.com/unix/test.htm)
+
+### rcp
+
+Copy files from one computer to another
+
+### scp
+
+Copy files securely from one computer to another (secure, encrypted)
+
+### rsync
+
+Advanced copying tool
