@@ -9,3 +9,9 @@
 `git reset HEAD~` - Undo last commit and make the changes available locally
 
 To revert effect to above command use `git reset HEAD@{1}`
+
+## git branch
+
+| Option | Desciption |
+=
+| `-a` | List local and remote branches |
