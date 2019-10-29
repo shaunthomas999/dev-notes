@@ -13,5 +13,5 @@ To revert effect to above command use `git reset HEAD@{1}`
 ## git branch
 
 | Option | Desciption |
-=
+|:---:|:---:|
 | `-a` | List local and remote branches |
