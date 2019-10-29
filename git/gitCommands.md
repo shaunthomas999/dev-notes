@@ -29,7 +29,7 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 ## Cheat sheets
 
-Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
-Gitlab - [https://about.gitlab.com/images/press/git-cheat-sheet.pdf]()
-Atlassian - [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet]()
-git-tower -  [https://www.git-tower.com/blog/git-cheat-sheet/]() (Need to sign-up with email and they will send the cheatsheet download link via email)
+* Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
+* Gitlab - [https://about.gitlab.com/images/press/git-cheat-sheet.pdf]()
+* Atlassian - [https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet]()
+* git-tower -  [https://www.git-tower.com/blog/git-cheat-sheet/]() (Need to sign-up with email and they will send the cheatsheet download link via email)
