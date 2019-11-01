@@ -23,9 +23,9 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 ## git config
 
-`git config user.email` - Get `user.email` git config property for current project
-`git config user.email shaunthomas999[at]gmail.com` - Set `user.email` git config property for current project
-`git config --global user.email` - Get global `user.email` git config property
+* `git config user.email` - Get `user.email` git config property for current project
+* `git config user.email shaunthomas999[at]gmail.com` - Set `user.email` git config property for current project
+* `git config --global user.email` - Get global `user.email` git config property
 
 ## Cheat sheets
 
