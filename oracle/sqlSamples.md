@@ -12,6 +12,7 @@ CREATE TABLE Student(ID NUMBER(*,0),
   GENDER NCHAR(1)
 );
 ```
+* `NUMBER(3)` is same as `NUMBER(3,0)`
 
 ```sql
 -- Insert --
