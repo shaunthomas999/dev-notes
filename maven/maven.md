@@ -91,4 +91,8 @@ Run the following commands inside the folder containing pom.xml files
 
 * [https://www.baeldung.com/maven-dependency-scopes]()
 
+## Bump version
+
+* `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=<Put_New_Version_Here>`
+
 ## Cheatsheet - Look at Google Drive
