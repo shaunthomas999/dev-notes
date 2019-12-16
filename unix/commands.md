@@ -57,3 +57,16 @@ Copy files securely from one computer to another (secure, encrypted)
 ### rsync
 
 Advanced copying tool
+
+## Processes
+
+### kill
+
+* `kill -9 <PID>` - Here 9 is the signal number which is `KILL` signal (see below for desc.).
+  * Same as `kill -KILL <PID>` and `kill -SIGKILL <PID>` 
+* `kill <PID>` - `TERM` signal is send as that's the default
+
+#### signal types
+
+* `TERM` - an application will be able to terminate, i.e. properly run a shutdown routine
+* `KILL` - the applications is stopped and killed immediately (which could lead to data loss or raising apport to report a presumed crash in some cases)
