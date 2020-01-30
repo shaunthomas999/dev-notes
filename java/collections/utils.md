@@ -5,3 +5,4 @@
 * Google - Guava
   * Main page - https://github.com/google/guava
   * User guide - https://github.com/google/guava/wiki
+* Apache Collections Util
