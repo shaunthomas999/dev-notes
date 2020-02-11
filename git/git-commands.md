@@ -27,6 +27,13 @@ To revert effect to above command use `git reset HEAD@{1}`
 * `git config user.email shaunthomas999[at]gmail.com` - Set `user.email` git config property for current project
 * `git config --global user.email` - Get global `user.email` git config property
 
+* `git config -l` - See all configs
+
+## git remote
+
+* `git remote show origin` - See remote origin
+* `git remote -v` - See all remotes locally
+
 ## Cheat sheets
 
 * Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
