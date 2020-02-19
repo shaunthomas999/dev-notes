@@ -95,4 +95,8 @@ Run the following commands inside the folder containing pom.xml files
 
 * `mvn versions:set -DgenerateBackupPoms=false -DnewVersion=<Put_New_Version_Here>`
 
+## Deploy
+
+* `mvn deploy`
+
 ## Cheatsheet - Look at Google Drive
