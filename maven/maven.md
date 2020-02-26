@@ -89,7 +89,8 @@ Run the following commands inside the folder containing pom.xml files
 
 #### References
 
-* [https://www.baeldung.com/maven-dependency-scopes]()
+* https://www.baeldung.com/maven-dependency-scopes
+* https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
 
 ## Bump version
 
