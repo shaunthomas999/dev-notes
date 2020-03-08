@@ -52,7 +52,10 @@ Copy files from one computer to another
 
 ### scp
 
-Copy files securely from one computer to another (secure, encrypted)
+* Copy files securely from one computer to another (secure, encrypted)
+* `scp <file_to_copy> <machine_to_copy_file-to>:<location_inside_machine_to_copy_file_to>`
+  * E.g., `scp something.jar sys01.net:`
+  * If location is not specified in target machine, then the file will be copied to `$HOME` directory
 
 ### rsync
 
@@ -70,3 +73,13 @@ Advanced copying tool
 
 * `TERM` - an application will be able to terminate, i.e. properly run a shutdown routine
 * `KILL` - the applications is stopped and killed immediately (which could lead to data loss or raising apport to report a presumed crash in some cases)
+
+## Network
+
+### lsof
+
+* list open files
+* `lsof -i :<port_number>` - Give details of which application/process is consuming the port
+* `lsof -nP +c 15 | grep LISTEN` - Show list of all consumed ports in a machine
+  * https://wilsonmar.github.io/ports-open/
+* `lsof -h` - Show list of all command line options
