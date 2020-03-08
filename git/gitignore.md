@@ -34,8 +34,12 @@
 /.nb-gradle/
 /build/
 
+### VS Code ###
+.vscode/
+
 ### OS generated files ###
-.DS_Store
+**/.DS_Store
+#.DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
@@ -45,5 +49,12 @@ Thumbs.db
 
 ### Logs ###
 *.log
+
+### spring-boot ###
+target/
+**/target
+**/logs
+**/work
+tmp
 
 ```
