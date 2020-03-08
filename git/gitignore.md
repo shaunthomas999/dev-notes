@@ -1,8 +1,8 @@
 # .gitignore reference
 
-## For including in personal projects
+~## For including in personal projects~
 
-## For global project
+~## For global project~
 
 ```
 ### Java ###
@@ -33,5 +33,17 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+### OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Logs ###
+*.log
 
 ```
