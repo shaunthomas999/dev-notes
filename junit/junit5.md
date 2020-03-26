@@ -1,5 +1,22 @@
 # JUnit 5
 
+## All assertions in JUnit 5
+
+```java
+assertEquals() and assertNotEquals()
+assertArrayEquals()
+assertIterableEquals()
+assertLinesMatch()
+assertNotNull() and assertNull()
+assertNotSame() and assertSame()
+assertTimeout() and assertTimeoutPreemptively()
+assertTrue() and assertFalse()
+assertThrows()
+fail()
+```
+
+Ref: https://howtodoinjava.com/junit5/junit-5-assertions-examples/
+
 ## Maven
 
 ### Aggregator
