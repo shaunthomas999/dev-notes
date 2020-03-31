@@ -85,8 +85,10 @@ Run the following commands inside the folder containing pom.xml files
     ```
 4. runtime - required at runtime - not in compile time but in test and runtime. E.g. JDBC driver
 5. test - required for testing - not transitive. E.g., JUnit
-6. import
+6. import - only available 
 
+`provided` and `test` scope will never end-up in main project
+ 
 #### References
 
 * https://www.baeldung.com/maven-dependency-scopes
