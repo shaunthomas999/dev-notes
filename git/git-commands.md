@@ -33,6 +33,12 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 * `git remote show origin` - See remote origin
 * `git remote -v` - See all remotes locally
+* `git remote rename origin old-origin` - Change origin - Manage 2 repos
+* `git remote rm old-origin` - Remove a origin
+
+## git reflog
+
+* This contains history of all commands locally executed by the user. It gives the possibility to revert back changes whenever required. This even has things deleted from git repo.
 
 ## Cheat sheets
 
