@@ -40,6 +40,10 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 * This contains history of all commands locally executed by the user. It gives the possibility to revert back changes whenever required. This even has things deleted from git repo.
 
+## gitignore
+
+* `git rm --cached .idea`
+
 ## Cheat sheets
 
 * Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
