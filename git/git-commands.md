@@ -42,7 +42,7 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 ## gitignore
 
-* `git rm --cached .idea`
+* `git rm --cached -r .idea`
 
 ## Cheat sheets
 
