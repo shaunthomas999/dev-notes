@@ -1,0 +1,55 @@
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+### OS generated files ###
+**/.DS_Store
+#.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Logs ###
+*.log
+
+### spring-boot ###
+target/
+**/target
+**/logs
+**/work
+tmp
+
+### Git ###
+.git
+
+### Docs ###
+*.md
+*.adoc
+
+### Other files ###
+*.rest
