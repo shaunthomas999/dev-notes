@@ -38,8 +38,6 @@ Thumbs.db
 *.log
 
 ### spring-boot ###
-target/
-**/target
 **/logs
 **/work
 tmp

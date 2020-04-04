@@ -52,7 +52,6 @@ Thumbs.db
 
 ### spring-boot ###
 target/
-**/target
 **/logs
 **/work
 tmp
