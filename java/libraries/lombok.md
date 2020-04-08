@@ -1,6 +1,11 @@
 # Lombok
 
+> No notes in gDrive
+
 ## Annotations
 
-* Data
-* Value - immutable
+* `@Data`
+* `@Value` - immutable
+
+* `@Builder(toBuilder = true)`
+* `@SuperBuilder`
