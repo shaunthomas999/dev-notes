@@ -1,5 +1,11 @@
 # Java Version Management
 
+## Mac OS
+
+### Version check
+
+* See all versions of java - `/usr/libexec/java_home -V`
+
 ## SDKMAN
 
 * Ref: https://blog.codeleak.pl/2020/01/manage-multiple-java-sdks-with-sdkman.html
