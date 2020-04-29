@@ -2,6 +2,8 @@
 
 ## Search for table or columns
 
+![Search in SQL Developer](00-images/search-sql-developer.png)
+
 * Go to 'Find Database Object' window
 * Connect to the required database
 * Select appropriate items in the tree below
