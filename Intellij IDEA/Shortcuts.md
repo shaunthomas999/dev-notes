@@ -6,9 +6,15 @@
 * Horizontal split - `ctrl` + `opt` + `,`
 * Unsplit - `ctrl` + `opt` + `/`
 
+## Navigation
+
+* Switch between tab windows - CTRL + TAB
+* Recently visited locations in IDE - SHFT + CMD + E
+* Easy Navigation - CMD + E
+
 ## Editor
 
-* Soft wrap -  `opt` + `space`
+* Soft wrap -  <kbd>alt</kbd> + <kbd>space</kbd>
 
 ### Refactoring
 
