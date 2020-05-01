@@ -40,6 +40,9 @@ Run the following commands inside the folder containing pom.xml files
 ## Run a single unit test
 * `mvn -Dtest=TestClass#testMethod test`
 
+## Run with particular profile
+* `mvn -Pprod`
+
 ## Command line options
 * `-B` - Runs Maven in batch mode. It avoids Maven's reporting of downloading progress.
 * `-e` - Configures Maven to report detailed information about errors
