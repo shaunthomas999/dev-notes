@@ -11,4 +11,5 @@ pyenv rehash
 
 ## Reference
 
+* Official - https://docs.python-guide.org/starting/install3/osx/
 * http://sourabhbajaj.com/mac-setup/Python/
