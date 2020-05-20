@@ -22,6 +22,7 @@
 * Run commands
   * `docker pull postgres:12.3-alpine`
   * `docker run --name postgresqldb -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:12.3-alpine`
+  * `docker exec postgresqldb psql -U postgres -c"CREATE DATABASE testdb" postgres`
 * Now connect from Intellij IDEA
 
 #### References
