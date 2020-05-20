@@ -14,4 +14,4 @@
 * https://hub.docker.com/_/postgres
 
 ## Setup steps
-* https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb#iv-popular-guis-for-postgresql-on-macosx
+* https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
