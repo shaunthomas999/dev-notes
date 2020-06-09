@@ -9,7 +9,8 @@ CREATE TABLE Student(ID NUMBER(*,0),
   ADDRESS NVARCHAR2(500),
   AGE NUMBER(3),
   SALARY NUMBER(6,4)
-  GENDER NCHAR(1)
+  GENDER NCHAR(1),
+  DATE_STORED TIMESTAMP,
 );
 ```
 * `NUMBER(3)` is same as `NUMBER(3,0)`
@@ -17,9 +18,9 @@ CREATE TABLE Student(ID NUMBER(*,0),
 ```sql
 -- Insert --
 
-INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(1, 'Mahindra Singh', 'Dhoni', 'Jharkand', 33, 'M');
-INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(2, 'Sachin', 'Tendulkar', 'Mumbai', 36, 'M');
-INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(3, 'Juila', 'Roberts', 'California', 40, 'F');
+INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(1, 'Mahindra Singh', 'Dhoni', 'Jharkand', 33, 'M', '15-12-16 09:46:12,630000000');
+INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(2, 'Sachin', 'Tendulkar', 'Mumbai', 36, 'M', '15-12-16 09:46:12,630000000');
+INSERT INTO Student(ID, FIRSTNAME, LASTNAME, ADDRESS, AGE, GENDER) VALUES(3, 'Juila', 'Roberts', 'California', 40, 'F', '15-12-16 09:46:12,630000000');
 ```
 
 ```sql
