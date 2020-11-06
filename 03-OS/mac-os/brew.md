@@ -3,5 +3,11 @@
 ## Update & upgrade
 * `brew update && brew upgrade`
 
+## See all services
+* `brew services list`
+
 ## Install an application
 * `brew install tree`
+
+## Reference
+* Look at gDrive notes
