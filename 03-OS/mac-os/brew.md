@@ -4,7 +4,7 @@
 * `brew update && brew upgrade`
 
 ## See all services
-* `brew services list`
+* `brew list`
 
 ## Install an application
 * `brew install tree`
