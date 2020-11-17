@@ -16,4 +16,4 @@ sudo keytool -delete -alias rootg3_b64 -keystore $JAVA_HOME/jre/lib/security/cac
 
 ## Reference
 
-* [http://tutorials.jenkov.com/java-cryptography/keytool.html]()
+* [http://tutorials.jenkov.com/java-cryptography/keytool.html](http://tutorials.jenkov.com/java-cryptography/keytool.html)
