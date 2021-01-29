@@ -1,3 +1,0 @@
-# Brew
-
-* `brew install tree`
