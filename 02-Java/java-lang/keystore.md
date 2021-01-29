@@ -1,6 +1,6 @@
 # Java KeyStore
 
-* [http://tutorials.jenkov.com/java-cryptography/keystore.html]()
+* [http://tutorials.jenkov.com/java-cryptography/keystore.html](http://tutorials.jenkov.com/java-cryptography/keystore.html)
 
 ## KeyStore Explorer
 
