@@ -67,6 +67,9 @@ Run the following commands inside the folder containing pom.xml files
 ## Install a downloaded or local jar into maven local repository
 * `mvn install:install-file -Dfile=my-jar.jar -DgroupId=com.shaunthomas999 -DartifactId=my-jar -Dversion=LOCAL -Dpackaging=jar`
 
+## Download a artifact from repo like Nexus, Artifactory etc.
+* ` mvn dependency:copy -Dartifact="com.shaunthomas999.project:my-sample-project:RELEASE:jar" -DoutputDirectory=.`
+
 ## Maven Dependencies
 
 ### Scope
