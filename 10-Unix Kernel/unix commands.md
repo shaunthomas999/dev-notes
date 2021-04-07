@@ -2,6 +2,10 @@
 
 ## Shell
 
+* `fc` - Update last executed command
+* `<command> | tee <file_name>` - Execute command and print output to stdout as well as file_name
+  * https://www.geeksforgeeks.org/tee-command-linux-example/ 
+
 ## Change shell
 
 * `echo $0` - Check which shell is running now
