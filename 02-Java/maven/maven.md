@@ -40,8 +40,9 @@ Run the following commands inside the folder containing pom.xml files
 ## Run a single unit test
 * `mvn -Dtest=TestClass#testMethod test`
 
-## Run with particular profile
-* `mvn -Pprod`
+### Maven Profiles
+* Run with particular profile - `mvn -Pprod`
+* Ref: http://maven.apache.org/guides/introduction/introduction-to-profiles.html
 
 ## Command line options
 * `-B` - Runs Maven in batch mode. It avoids Maven's reporting of downloading progress.
@@ -107,5 +108,11 @@ Run the following commands inside the folder containing pom.xml files
 ## Deploy
 
 * `mvn deploy`
+
+## Mirros
+* Ref: https://maven.apache.org/guides/mini/guide-mirror-settings.html
+
+## Settings
+* Ref: https://maven.apache.org/settings.html
 
 ## Cheatsheet - Look at Google Drive
