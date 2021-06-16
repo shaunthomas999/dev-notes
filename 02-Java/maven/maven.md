@@ -47,6 +47,8 @@ Run the following commands inside the folder containing pom.xml files
 ## Command line options
 * `-B` - Runs Maven in batch mode. It avoids Maven's reporting of downloading progress.
 * `-e` - Configures Maven to report detailed information about errors
+* `-pl` - Run a module alone in multi-module project setup
+  *  `-am` - Additional parameter to resolve local dependency in multi-module project setup. E.g. `mvn -pl clean install -am module-b`
 
 ## Analyze dependencies
 * `mvn dependency:analyze` - Helps to get information on "Used undeclared dependencies", "Unused declared dependencies" etc.
