@@ -11,3 +11,17 @@
 
 * https://pmd.github.io/latest/pmd_userdocs_tools_maven.html
 * https://pmd.github.io/latest/pmd_userdocs_tools.html
+
+## Versions
+
+```xml
+<plugin>
+  <groupId>org.codehaus.mojo</groupId>
+  <artifactId>versions-maven-plugin</artifactId>
+  <version>2.8.1</version>
+</plugin>
+```
+
+* `mvn versions:display-dependency-updates`
+* `mvn versions:display-plugin-updates`
+* Ref: https://dzone.com/articles/general-considerations-on-updating-enterprise-java
