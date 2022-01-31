@@ -1,0 +1,13 @@
+[user]
+  name = Shaun Thomas
+  email = shaunthomas999@gmail.com
+[http "https://github.com"]
+  proxy =
+[http "https://bitbucket.com"]
+  proxy =
+[core]
+	excludesfile = /Users/shaunthomas/.gitignore
+	editor = subl -n -w
+	autocrlf = input
+[init]
+	defaultBranch = main
