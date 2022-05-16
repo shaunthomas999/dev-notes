@@ -13,4 +13,4 @@
     echo "export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which java)))))" >>  /home/my_user/.bash_profile
     export PATH=$JAVA_HOME/bin:$PATH
     ```
-* `alternatives --display java | grep 'family java-11-openjdk' | cut -d' ' -f1`
+* `alternatives --display java | grep 'family java-11-openjdk' | cut -d' ' -f1 | sed -e 's/\/bin\/java$//'`
