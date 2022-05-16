@@ -11,9 +11,14 @@
 
 ## Home setting
 
+### Option-1
+```java
+echo "export JAVA_HOME=\$(alternatives --display java | grep 'family java-11-openjdk' | cut -d' ' -f1 | sed -e 's/\/bin\/java$//')" >>  ~/.bash_profile
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+### Option-2
 ```java
 echo "export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which java)))))" >>  /home/my_user/.bash_profile
 export PATH=$JAVA_HOME/bin:$PATH
 ```
-
-* `alternatives --display java | grep 'family java-11-openjdk' | cut -d' ' -f1 | sed -e 's/\/bin\/java$//'`
