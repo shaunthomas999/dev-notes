@@ -19,7 +19,9 @@
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
 * Start - `brew services start postgresql`
 * Stop - `brew services stop postgresql`
-* Interact - `psql postgres`
+* Interact
+  * `createuser -s postgres`
+  * `psql -U postgres`
 * References
   * https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/ 
   * https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3
@@ -43,3 +45,32 @@
 
 ### Normal
 * https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
+
+## Client tools
+
+* pgAdmin 4 - Install from here - https://www.pgadmin.org/download/pgadmin-4-macos/
+
+## Create Role and Database
+
+### pgAdmin
+
+* Start pgAdmin
+* Create Role
+  * Right-click 'Login/Group Roles' and select 'Create / Login/Group Role'
+  * Enter 'Name' on the 'General' tab
+  * Enter 'Password' on the 'Definition' tab
+  * Select all privileges on the 'Privileges' tab
+  * Click 'Save'
+* Create Database
+  * Right-click 'Databases' and select 'Create / Database'
+  * Enter 'Database' on the 'General' tab
+  * Enter 'Owner' on the 'General' tab
+  * Click 'Save'
+
+### CLI - psql tool
+
+* `psql -U postgres` - Start psql
+* `CREATE ROLE "test-db" WITH LOGIN PASSWORD 'testdb';`
+* `CREATE DATABASE "test-db" OWNER "test-db";`
+
+
