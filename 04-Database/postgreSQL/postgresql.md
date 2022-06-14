@@ -77,6 +77,6 @@
 
 * `\q` - quit
 * `\l` - list all database
-* `\c` - show current database
+* `\c` (`\connect`) - show current database or connect to database
 
 
