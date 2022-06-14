@@ -20,8 +20,8 @@
 * Start - `brew services start postgresql`
 * Stop - `brew services stop postgresql`
 * Interact
-  * `createuser -s postgres`
-  * `psql -U postgres`
+  * `createuser -s postgres` - create user postgres
+  * `psql -U postgres` - login postgres user
 * References
   * https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/ 
   * https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3
@@ -72,5 +72,11 @@
 * `psql -U postgres` - Start psql
 * `CREATE ROLE "test-db" WITH LOGIN PASSWORD 'testdb';`
 * `CREATE DATABASE "test-db" OWNER "test-db";`
+
+## PSQL
+
+* `\q` - quit
+* `\l` - list all database
+* `\c` - show current database
 
 
