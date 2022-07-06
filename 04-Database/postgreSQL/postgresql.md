@@ -85,4 +85,7 @@
 * `\l` - list all database
 * `\c` (`\connect`) - show current database or connect to database
 
+## Cheatsheets
 
+* https://quickref.me/postgres
+* https://postgrescheatsheet.com
