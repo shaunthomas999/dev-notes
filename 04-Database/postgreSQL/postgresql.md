@@ -27,6 +27,8 @@
 #### Start & Stop manually
 * `pg_ctl -D /usr/local/var/postgres start`
 * `pg_ctl -D /usr/local/var/postgres stop`
+* `pg_ctl -D /usr/local/var/postgres status`
+* More options > https://www.postgresql.org/docs/current/app-pg-ctl.html
 
 #### Start & Stop automatically now & on login
 * Start - `brew services start postgresql`
