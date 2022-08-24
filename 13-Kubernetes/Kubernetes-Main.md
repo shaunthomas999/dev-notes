@@ -1,6 +1,6 @@
 # Kubernetes
 
-## Miniikube
+## Minikube
 
 * `brew install minikube`
 *  Reference
