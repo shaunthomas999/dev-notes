@@ -5,6 +5,7 @@
 | vscode-icons          | Show icons based on code type |
 | docs-yaml             | Yaml file viewer              |
 | Android iOS Emulator  | Android iOS Emulators         |
+| Angular Essentials | Angular Essential extension pack by John Papa|
 
 ## References
 
