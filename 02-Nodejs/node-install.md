@@ -7,3 +7,6 @@
 * To see all the versions - `nvm ls-remote`
 * Reference
   * Installation instructions, go to https://github.com/creationix/nvm#install-script
+
+## NPM
+* NPM external registry - `npm set registry <registry_url>`
