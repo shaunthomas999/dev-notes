@@ -2,7 +2,7 @@
 
 ## Format
 
-* `Rainbow`
+* `Rainbow Brackets`
 
 ## Maven
 
@@ -15,5 +15,5 @@
 
 ## Others
 
-* `Adoc`
+* `AsciiDoc`
 * `Sonarlint`
