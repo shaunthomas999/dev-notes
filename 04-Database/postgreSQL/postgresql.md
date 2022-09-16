@@ -88,6 +88,10 @@
 * `\l` - list all database
 * `\c` (`\connect`) - show current database or connect to database
 
+## SQL
+* https://www.postgresqltutorial.com/
+  * See the menu links on the right side
+ 
 ## Cheatsheets
 
 * https://quickref.me/postgres
