@@ -2,20 +2,6 @@
 
 ## Project
 
-## Dependency Management
-
-### virtualenv method
-* Manage dependencies via pyenv or virtual environment
-    * https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line
-* https://learnpython.com/blog/how-to-use-virtualenv-python/
-* Quick Commands
-  * `pip install virtualenv` - Install
-  * `virtualenv -p python3 envname` - Create virtual environment
-  * `source envname/bin/activate` - Activate environment
-  * `pip install` - Install packages
-  * `deactivate` - Deactivate environment
-  * `pip freeze > requirements.txt` - Create requirements.txt 
-
 ## Python Installation
 
 ### Homebrew method
@@ -37,6 +23,20 @@ pyenv rehash
 ## Usage
 * `python3 --version`
 * `python --version`
+
+## Dependency Management
+
+### virtualenv method
+* Manage dependencies via pyenv or virtual environment
+    * https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line
+* https://learnpython.com/blog/how-to-use-virtualenv-python/
+* Quick Commands
+  * `pip install virtualenv` - Install
+  * `virtualenv -p python3 envname` - Create virtual environment
+  * `source envname/bin/activate` - Activate environment
+  * `pip install` - Install packages
+  * `deactivate` - Deactivate environment
+  * `pip freeze > requirements.txt` - Create requirements.txt 
 
 ## Reference
 
