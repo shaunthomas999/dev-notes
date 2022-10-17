@@ -23,6 +23,10 @@ pyenv global 3.7.0
 pyenv rehash
 ```
 
+## Usage
+* `python3 --version`
+* `python --version`
+
 ## Reference
 
 * Official - https://docs.python-guide.org/starting/install3/osx/
