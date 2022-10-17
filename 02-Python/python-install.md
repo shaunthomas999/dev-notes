@@ -1,4 +1,18 @@
-# Python installation
+# Python 
+
+## Project
+
+* Manage dependencies via pyenv or virtual environment
+    * https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line  
+
+## Python Installation
+
+### Homebrew method
+
+* `brew install python`
+* Upgrade dependencies after install `python3 -m pip install --upgrade pip setuptools wheel`
+
+### Pyenv method
 
 ```shell
 brew install pyenv
