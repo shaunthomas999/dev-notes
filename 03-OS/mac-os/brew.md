@@ -16,5 +16,8 @@
 * `brew tap caskroom/cask`
 * `brew cask install docker visual-studio-code slack`
 
+## Sanity Check - Linking Check
+* `brew doctor`
+
 ## Reference
 * Look at gDrive notes
