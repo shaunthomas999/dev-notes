@@ -15,10 +15,10 @@
 * https://docs.docker.com/engine/examples/postgresql_service/
 
 ### Homebrew
-* Install - `brew install postgresql`
+* Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
 * Interact
-  * `createuser -s postgres@14` - create user postgres
+  * `createuser -s postgres` - create user postgres
   * `psql -U postgres` - login postgres user
 * References
   * https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/ 
