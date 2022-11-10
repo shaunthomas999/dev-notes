@@ -17,3 +17,6 @@
 
 * `AsciiDoc`
 * `Sonarlint`
+* `Lombok`
+* `Azure`
+* `Docker`
