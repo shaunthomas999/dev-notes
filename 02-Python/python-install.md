@@ -4,12 +4,7 @@
 
 ## Python Installation
 
-### Homebrew method
-
-* `brew install python`
-* Upgrade dependencies after install `python3 -m pip install --upgrade pip setuptools wheel`
-
-### Pyenv method
+### (1) Pyenv method
 
 ```shell
 brew install pyenv
@@ -19,6 +14,11 @@ pyenv install 3.7.0
 pyenv global 3.7.0
 pyenv rehash
 ```
+
+### (2) Homebrew method
+
+* `brew install python`
+* Upgrade dependencies after install `python3 -m pip install --upgrade pip setuptools wheel`
 
 ## Usage
 * `python3 --version`
