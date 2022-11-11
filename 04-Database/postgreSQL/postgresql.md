@@ -2,19 +2,19 @@
 
 ## Installation
 
-### Postgres App 
+### (1) Postgres App 
 * Download and install PostgreSQL app from https://postgresapp.com/
 * Start the app and click Initialize button
 * Then in the database shown, click on the one with name 'postgres'
 
-### Enterprise DB
+### (2) Enterprise DB
 * https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
 
-### Docker
+### (3) Docker
 * https://hub.docker.com/_/postgres
 * https://docs.docker.com/engine/examples/postgresql_service/
 
-### Homebrew
+### (4) Homebrew
 * Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
 * Interact
@@ -35,6 +35,16 @@
 #### Start & Stop automatically now & on login
 * Start - `brew services start postgresql`
 * Stop - `brew services stop postgresql`
+
+### (5) pgAdmin 4
+* https://www.pgadmin.org/
+* Download or brew install --cask
+  * https://www.pgadmin.org/download/pgadmin-4-macos/ 
+
+### (6) Postico
+* Mac native app
+* Not that many features as pgAdmin
+* More commerical than open source
 
 ## Setup steps
 
