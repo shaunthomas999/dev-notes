@@ -99,6 +99,10 @@
 * `\l` - list all database
 * `\c` (`\connect`) - show current database or connect to database
 
+## pg_dump and pg_restore
+
+* Location with brew install - `/opt/homebrew/Cellar/postgresql@14/14.5_5/bin/pg_dump`
+
 ## SQL
 * https://www.postgresqltutorial.com/
   * See the menu links on the right side
