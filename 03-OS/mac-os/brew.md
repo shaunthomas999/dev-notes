@@ -14,7 +14,7 @@
 
 ## Cask - Install Desktop Applications
 * `brew tap caskroom/cask`
-* `brew cask install docker visual-studio-code slack`
+* `brew install --cask docker visual-studio-code slack mat`
 
 ## Sanity Check - Linking Check
 * `brew doctor`
