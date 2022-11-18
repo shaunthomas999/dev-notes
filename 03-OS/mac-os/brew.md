@@ -17,12 +17,12 @@
 * `brew tap caskroom/cask`
 * https://formulae.brew.sh/cask/
 
-```sh
-`brew install --cask docker \
+```shell
+brew install --cask docker \
   visual-studio-code \
   slack \
   mat \
-  visualvm`
+  visualvm
 ```
 
 ## Sanity Check - Linking Check
