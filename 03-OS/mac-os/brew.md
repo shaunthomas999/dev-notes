@@ -15,8 +15,15 @@
 
 ## Cask - Install Desktop Applications
 * `brew tap caskroom/cask`
-* `brew install --cask docker visual-studio-code slack mat`
 * https://formulae.brew.sh/cask/
+
+```sh
+`brew install --cask docker \
+  visual-studio-code \
+  slack \
+  mat \
+  visualvm`
+```
 
 ## Sanity Check - Linking Check
 * `brew doctor`
