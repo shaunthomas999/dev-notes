@@ -9,3 +9,16 @@
 ## FTP clients
 
 * http://www.crossftp.com/
+
+## Windows Apps on Mac
+
+### (1) Wine 
+* `brew install --cask --no-quarantine wine-stable`
+  * `--no-quarantine` to avoid brew from adding quarantine flag?
+  * Ref
+    * > https://www.davidbaumgold.com/tutorials/wine-mac/
+    * https://wiki.winehq.org/MacOS
+
+### (2) Mono
+* .Net framework applications
+* 
