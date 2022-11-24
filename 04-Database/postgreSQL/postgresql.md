@@ -93,11 +93,13 @@
 * `CREATE ROLE "test-db" WITH LOGIN PASSWORD 'testdb';`
 * `CREATE DATABASE "test-db" OWNER "test-db";`
 
-## PSQL
+## PSQL (CLI)
 
 * `\q` - quit
 * `\l` - list all database
 * `\c` (`\connect`) - show current database or connect to database
+  * `e.g. \c greetings-db`
+* Tip: By default PSQL will show database name in the prompt
 
 ## pg_dump and pg_restore
 
