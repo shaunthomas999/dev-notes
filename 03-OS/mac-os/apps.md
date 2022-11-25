@@ -8,7 +8,9 @@
 * [KeePass](https://keepass.info/download/p_macosx/index.html) password manager - install in Mac
   * [KeePassXC](https://keepassxc.org/download/#mac)
   * Strongbox Free
-* Flycut
+* Flycut - Clipboard Manager
+* Amphitamine - Keep your laptop awake
+* Spectacle - Window Alignment Manager
 
 ## FTP clients
 
