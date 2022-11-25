@@ -7,6 +7,8 @@
 * [Aerial Screen Saver](https://github.com/JohnCoates/Aerial)
 * [KeePass](https://keepass.info/download/p_macosx/index.html) password manager - install in Mac
   * [KeePassXC](https://keepassxc.org/download/#mac)
+  * Strongbox Free
+* Flycut
 
 ## FTP clients
 
