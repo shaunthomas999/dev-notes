@@ -22,7 +22,8 @@ brew install --cask docker \
   visual-studio-code \
   slack \
   mat \
-  visualvm
+  visualvm \
+  keka
 ```
 
 ## Sanity Check - Linking Check
