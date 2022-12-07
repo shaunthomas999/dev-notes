@@ -11,6 +11,8 @@
 * Flycut - Clipboard Manager
 * Amphitamine - Keep your laptop awake
 * Spectacle - Window Alignment Manager
+* Gifski - For making GIFs from .mov files
+  * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c 
 
 ## FTP clients
 
@@ -30,3 +32,7 @@
 * `brew install mono` - https://www.mono-project.com/
 * `brew install --cask xquartz` - https://www.xquartz.org/
 
+### (3) CrossOver Mac
+* Paid software
+
+### (4) WineBottler
