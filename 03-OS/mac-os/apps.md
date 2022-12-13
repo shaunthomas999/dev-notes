@@ -1,4 +1,4 @@
-# Mac - usual productivity apps
+# Mac - productivity apps
 
 * [App Cleaner & Uninstaller](https://nektony.com/mac-app-cleaner)
   * _Ignore send report message at first and restart the app_
@@ -16,6 +16,9 @@
 
 ## FTP clients
 
+* https://www.msp360.com/explorer/
+* https://filezilla-project.org/
+* https://cyberduck.io/
 * http://www.crossftp.com/
 
 ## Windows Apps on Mac
@@ -36,3 +39,10 @@
 * Paid software
 
 ### (4) WineBottler
+
+## Other productivity app references
+
+* https://github.com/jaywcjlove/awesome-mac
+* https://github.com/tonnoz/dev-setup-mac/blob/main/README.md
+
+
