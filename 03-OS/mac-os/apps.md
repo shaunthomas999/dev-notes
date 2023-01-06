@@ -44,5 +44,5 @@
 
 * https://github.com/jaywcjlove/awesome-mac
 * https://github.com/tonnoz/dev-setup-mac/blob/main/README.md
-
+* https://blog.codeleak.pl/2020/01/macos-essential-tools-for-java-developer.html
 
