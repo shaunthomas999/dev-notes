@@ -23,13 +23,14 @@
 
 ## VPN
 
-- location change too: L
+location change too: L
 
 * Avast (owns AVG now)
 * expressVPN (L)
 * SurfShark (L)
 * NordVPN (has some certificate issues) (L)
 * TunnelBear (L)
+* TunnelBlick
 
 ## Windows Apps on Mac
 
