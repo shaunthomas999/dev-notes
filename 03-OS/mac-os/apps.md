@@ -21,6 +21,16 @@
 * https://cyberduck.io/
 * http://www.crossftp.com/
 
+## VPN
+
+- location change too: L
+
+* Avast (owns AVG now)
+* expressVPN (L)
+* SurfShark (L)
+* NordVPN (has some certificate issues) (L)
+* TunnelBear (L)
+
 ## Windows Apps on Mac
 
 ### (1) Wine 
