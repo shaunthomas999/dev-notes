@@ -87,3 +87,11 @@ Advanced copying tool
 * `lsof -nP +c 15 | grep LISTEN` - Show list of all consumed ports in a machine
   * https://wilsonmar.github.io/ports-open/
 * `lsof -h` - Show list of all command line options
+
+## Network
+
+### Get IP address
+
+* `ipconfig getifaddr en1` - on LAN
+* `ipconfig getifaddr en0` - on WiFi
+* `curl ifconfig.me` - public IP address
