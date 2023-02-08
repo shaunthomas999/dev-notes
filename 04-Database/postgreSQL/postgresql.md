@@ -35,6 +35,7 @@
 #### Start & Stop automatically now & on login
 * Start - `brew services start postgresql`
 * Stop - `brew services stop postgresql`
+* Restart - `brew services restart postgresql`
 
 ### (5) pgAdmin 4
 * https://www.pgadmin.org/
