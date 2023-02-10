@@ -9,4 +9,7 @@
 
 * `kubectl logs -f <pod_name> --all-containers`
 * `kubectl logs -f <pod_name> -c <container_name>`
-* 
+
+## Pods
+
+* `kubectl get pods`
