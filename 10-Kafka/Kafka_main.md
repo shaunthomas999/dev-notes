@@ -14,3 +14,9 @@
   * Uses default kafka broker url - `localhost:9092`
   * Additional config options are described in `https://github.com/obsidiandynamics/kafdrop#getting-started`
 * Open a browser and access Kafdrop UI using URL `localhost:9000`
+
+### Offset Explorer 2
+
+### Kafka Manager
+
+### Intellij IDEA Ultimate - BigData Tools
