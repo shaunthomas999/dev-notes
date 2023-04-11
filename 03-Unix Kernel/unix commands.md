@@ -67,6 +67,11 @@ Advanced copying tool
 
 ## Processes
 
+### find process
+
+* `ps aux | grep <keyword>`
+* `ps -ef | grep <keyword>`
+
 ### kill
 
 * `kill -9 <PID>` - Here 9 is the signal number which is `KILL` signal (see below for desc.).
