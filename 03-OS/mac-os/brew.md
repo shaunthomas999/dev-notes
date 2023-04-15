@@ -25,6 +25,17 @@ brew install --cask docker \
   visualvm \
   keka
 ```
+## Fonts for coding
+
+`brew tap homebrew/cask-fonts`
+List of all available fonts - https://github.com/Homebrew/homebrew-cask-fonts/tree/master/Casks
+
+* Fira Code - `brew install --cask font-fira-code`
+* Hack - `brew install --cask font-hack`
+* Dina
+* Jetbrains Mono
+
+Ref: https://kinsta.com/blog/best-programming-fonts/
 
 ## Sanity Check - Linking Check
 * `brew doctor`
