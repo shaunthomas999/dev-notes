@@ -114,6 +114,7 @@
 
 * https://quickref.me/postgres
 * https://postgrescheatsheet.com
+* https://www.postgresqltutorial.com/postgresql-cheat-sheet/
 
 ## Versioning and upgrading
 * Find version - `Select Version();`
