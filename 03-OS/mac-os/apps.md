@@ -12,7 +12,13 @@
 * Amphitamine - Keep your laptop awake
 * Spectacle - Window Alignment Manager
 * Gifski - For making GIFs from .mov files
-  * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c 
+  * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c
+ * Logitech Apps - https://support.logi.com/hc/en-us/articles/360024361233
+   * Logi Tune 
+   * Logitech G Hub
+   * Logi Capture
+   * Old ones
+     * Logictech Camera Settings 
 
 ## FTP clients
 
