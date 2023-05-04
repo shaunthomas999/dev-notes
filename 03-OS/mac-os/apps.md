@@ -32,6 +32,13 @@ location change too: L
 * TunnelBear (L)
 * TunnelBlick
 
+## Screenrecoder & editor
+
+* Snagit
+  * Many other sub products
+* OBS Studio
+* Screenpal
+
 ## Windows Apps on Mac
 
 ### (1) Wine 
