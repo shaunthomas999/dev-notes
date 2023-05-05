@@ -18,7 +18,9 @@
    * Logitech G Hub
    * Logi Capture
    * Old ones
-     * Logictech Camera Settings 
+     * Logictech Camera Settings
+ * MenuMeters - System stats in menu bar - https://ragingmenace.com/software/menumeters/index.html
+ * Stats - System stats in menu bar - `brew install stats`
 
 ## FTP clients
 
