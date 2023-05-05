@@ -13,14 +13,14 @@
 * Spectacle - Window Alignment Manager
 * Gifski - For making GIFs from .mov files
   * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c
- * Logitech Apps - https://support.logi.com/hc/en-us/articles/360024361233
+ * [Logitech Apps](https://support.logi.com/hc/en-us/articles/360024361233)
    * Logi Tune 
    * Logitech G Hub
    * Logi Capture
    * Old ones
      * Logictech Camera Settings
- * MenuMeters - System stats in menu bar - https://ragingmenace.com/software/menumeters/index.html
- * Stats - System stats in menu bar - `brew install stats`
+ * [MenuMeters](https://ragingmenace.com/software/menumeters/index.html) - System stats in menu bar 
+ * [Stats](https://github.com/exelban/stats) - System stats in menu bar - `brew install stats`
 
 ## FTP clients
 
