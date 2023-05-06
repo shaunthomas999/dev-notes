@@ -17,6 +17,7 @@
    * Logi Tune 
    * Logitech G Hub
    * Logi Capture
+   * [Logi Options+](https://www.logitech.com/en-in/software/logi-options-plus.html)
    * Old ones
      * Logictech Camera Settings
  * [MenuMeters](https://ragingmenace.com/software/menumeters/index.html) - System stats in menu bar 
