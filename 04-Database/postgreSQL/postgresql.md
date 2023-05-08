@@ -109,6 +109,18 @@
 ## SQL
 * https://www.postgresqltutorial.com/
   * See the menu links on the right side
+
+## Performance troubleshooting
+
+* pgbadger - memory leak in database connection
+* max_connections
+  * `ALTER SYSTEM SET max_connections = <value>`
+  * `SHOW max_connections;`
+* pg_stat_activity
+  *  `SELECT * FROM pg_stat_activity;`
+  *  ` SELECT pid, query, state, age(now(), query_start) AS "age"
+FROM pg_stat_activity
+WHERE query != '<IDLE>' AND query_start < now() - interval '5 minute';`
  
 ## Cheatsheets
 
