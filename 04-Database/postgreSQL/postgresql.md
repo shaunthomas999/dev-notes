@@ -116,6 +116,10 @@
 * max_connections
   * `ALTER SYSTEM SET max_connections = <value>`
   * `SHOW max_connections;`
+  * Change
+    * `psql -U <admin_user> -d <database_name>` 
+    * `ALTER SYSTEM SET max_connections = 500;`
+    * `SELECT pg_reload_conf();` - To reload values in `postgresql.conf` file
 * pg_stat_activity
   *  `SELECT * FROM pg_stat_activity;`
   *  ` SELECT pid, query, state, age(now(), query_start) AS "age"
