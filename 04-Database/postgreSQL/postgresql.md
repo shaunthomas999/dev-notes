@@ -120,11 +120,27 @@
     * `psql -U <admin_user> -d <database_name>` 
     * `ALTER SYSTEM SET max_connections = 500;`
     * `SELECT pg_reload_conf();` - To reload values in `postgresql.conf` file
+
+## Process
 * pg_stat_activity
   *  `SELECT * FROM pg_stat_activity;`
-  *  ` SELECT pid, query, state, age(now(), query_start) AS "age"
+  * Find process running for more than 5 minutes
+```sql 
+SELECT pid, query, state, age(now(), query_start) AS "age"
 FROM pg_stat_activity
-WHERE query != '<IDLE>' AND query_start < now() - interval '5 minute';`
+WHERE query != '<IDLE>' AND query_start < now() - interval '5 minute';
+```
+
+  * Terminate process running for more than 5 minutes
+```sql
+SELECT pg_terminate_backend(pid)
+FROM pg_stat_activity
+WHERE state = 'active'
+AND now() - query_start > interval '5 minutes';
+
+//-- pg_cancel_backend(pid)
+//-- state = 'idle'
+```
  
 ## Cheatsheets
 
