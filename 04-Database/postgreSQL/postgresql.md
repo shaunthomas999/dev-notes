@@ -120,6 +120,12 @@
     * `psql -U <admin_user> -d <database_name>` 
     * `ALTER SYSTEM SET max_connections = 500;`
     * `SELECT pg_reload_conf();` - To reload values in `postgresql.conf` file
+  * Other option
+```sql
+SELECT name, setting
+FROM pg_settings
+WHERE name = 'max_connections';
+```
 
 ## Process
 * pg_stat_activity
