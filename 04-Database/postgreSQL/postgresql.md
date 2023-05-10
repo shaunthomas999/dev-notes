@@ -146,6 +146,7 @@ AND now() - query_start > interval '5 minutes';
 
 //-- pg_cancel_backend(pid)
 //-- state = 'idle'
+//-- state != 'idle'
 ```
  
 ## Cheatsheets
