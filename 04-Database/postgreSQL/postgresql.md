@@ -1,6 +1,6 @@
 # PostgreSQL 
 
-## Installation
+## Installation - Server
 
 ### (1) Postgres App 
 * Download and install PostgreSQL app from https://postgresapp.com/
@@ -37,12 +37,14 @@
 * Stop - `brew services stop postgresql`
 * Restart - `brew services restart postgresql`
 
-### (5) pgAdmin 4
+## Installation - Client
+
+### (1) pgAdmin 4
 * https://www.pgadmin.org/
 * Download or brew install --cask
   * https://www.pgadmin.org/download/pgadmin-4-macos/ 
 
-### (6) Postico
+### (2) Postico
 * Mac native app
 * Not that many features as pgAdmin
 * More commerical than open source
@@ -64,12 +66,8 @@
 * PSQL command - `psql -h localhost -p 5432 -d postgres -U postgres --password`
 
 
-### Normal
+### Setup reference
 * https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
-
-## Client tools
-
-* pgAdmin 4 - Install from here - https://www.pgadmin.org/download/pgadmin-4-macos/
 
 ## Create Role and Database
 
@@ -98,6 +96,7 @@
 
 * `\q` - quit
 * `\l` - list all database
+* `\du` - display user
 * `\c` (`\connect`) - show current database or connect to database
   * `e.g. \c greetings-db`
 * Tip: By default PSQL will show database name in the prompt
