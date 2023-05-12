@@ -1,3 +1,7 @@
+# Gitignore Global
+
+* `git config --global core.excludesfile ~/.gitignore`
+* Get .gitignore for different requirements - https://www.toptal.com/developers/gitignore/?templates=macos
 
 ```git
 ### macOS ###
