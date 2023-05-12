@@ -1,3 +1,5 @@
+
+```git
 ### macOS ###
 #**/.DS_Store
 
@@ -12,3 +14,4 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+```
