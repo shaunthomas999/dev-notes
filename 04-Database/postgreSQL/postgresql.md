@@ -133,7 +133,7 @@ WHERE name = 'max_connections';
 ```sql 
 SELECT pid, query, state, age(now(), query_start) AS "age"
 FROM pg_stat_activity
-WHERE query != '<IDLE>' AND query_start < now() - interval '5 minute';
+WHERE state != 'idle' AND query_start < now() - interval '5 minute';
 ```
 
   * Terminate process running for more than 5 minutes
