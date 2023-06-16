@@ -49,6 +49,16 @@
 * Not that many features as pgAdmin
 * More commerical than open source
 
+### (4) dbweaver
+* https://dbeaver.io/
+* Eclipse based
+
+### (3) pgWeb
+* http://sosedoff.github.io/pgweb/
+
+### Others
+* https://pgdash.io/blog/postgres-gui-tools.html
+
 ## Setup steps
 
 ### Docker
@@ -120,11 +130,15 @@
     * `ALTER SYSTEM SET max_connections = 500;`
     * `SELECT pg_reload_conf();` - To reload values in `postgresql.conf` file
   * Other option
+
 ```sql
 SELECT name, setting
 FROM pg_settings
 WHERE name = 'max_connections';
 ```
+
+## Monitoring
+* https://sematext.com/blog/postgresql-monitoring/
 
 ## Process
 * pg_stat_activity
