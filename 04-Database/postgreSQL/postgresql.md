@@ -102,11 +102,18 @@
 * `CREATE ROLE "test-db" WITH LOGIN PASSWORD 'testdb';`
 * `CREATE DATABASE "test-db" OWNER "test-db";`
 
+#### Superuser
+
+* `CREATE ROLE user_name SUPERUSER LOGIN PASSWORD 'password';`
+* or
+* `ALTER USER user_name WITH SUPERUSER;`
+
+
 ## PSQL (CLI)
 
 * `\q` - quit
 * `\l` - list all database
-* `\du` - display user
+* `\du` - display all users & roles
 * `\c` (`\connect`) - show current database or connect to database
   * `e.g. \c greetings-db`
 * Tip: By default PSQL will show database name in the prompt
