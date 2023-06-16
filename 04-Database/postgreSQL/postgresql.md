@@ -119,6 +119,10 @@
 * https://www.postgresqltutorial.com/
   * See the menu links on the right side
 
+## Postgresql database settings
+* To see all server settings - `SELECT * FROM pg_settings;`
+* Might have to reload/restart after config change*
+
 ## Performance troubleshooting
 
 * pgbadger - memory leak in database connection
