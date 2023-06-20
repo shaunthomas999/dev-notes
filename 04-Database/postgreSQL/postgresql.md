@@ -139,7 +139,7 @@
   * Change
     * `psql -U <admin_user> -d <database_name>` 
     * `ALTER SYSTEM SET max_connections = 500;`
-    * `SELECT pg_reload_conf();` - To reload values in `postgresql.conf` file
+    * `SELECT pg_reload_conf();` - To reload values in `/opt/homebrew/var/postgresql@14/postgresql.conf` file
   * Other option
 
 ```sql
