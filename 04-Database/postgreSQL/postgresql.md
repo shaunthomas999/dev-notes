@@ -183,5 +183,5 @@ AND now() - query_start > interval '5 minutes';
 * Find version - `Select Version();`
 * https://www.postgresql.org/support/versioning/
 * https://www.postgresql.org/docs/current/upgrading.html
-* https://www.postgresql.org/docs/current/pgupgrade.html![image](https://user-images.githubusercontent.com/2778950/203780460-9c3a2bb1-bc04-490d-9749-ba8f769f7f4f.png)
+* https://www.postgresql.org/docs/current/pgupgrade.html
 
