@@ -13,3 +13,4 @@
 ## Pods
 
 * `kubectl get pods`
+* `kubectl describe pod <pod_name>` - To know all details about a pod including config details, errors, activity etc.
