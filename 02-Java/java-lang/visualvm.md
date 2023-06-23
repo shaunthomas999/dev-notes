@@ -1,6 +1,5 @@
 # Visual VM
 
-* Comes with JDK
 * Commandline tool to start - `jvisualvm`
 
 ## References

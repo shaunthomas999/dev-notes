@@ -1,20 +1,36 @@
 # Kubernetes General
 
-## Kubernetes tools
+## Kubernetes Local Cluster Management Tools
 
-* kind
-* minikube
-* kubeadm
-   * Ref: https://kubernetes.io/docs/tasks/tools/
+### (1) Kind
 
-## Kubectl
-
-## Kind
-
-## Minikube
+### (2) Minikube
 
 * `brew install minikube`
 *  Reference
    *  https://minikube.sigs.k8s.io/docs/start/
 
-## Kubeadm
+### (3) Kubeadm
+
+### Reference
+
+* * Ref: https://kubernetes.io/docs/tasks/tools/
+
+## Kubectl tools
+
+### CLI
+
+* Kubectl - see other md file in same folder
+
+### GUI
+
+* Kubernetes Dashboard (kube-dashboard)
+  * from Google
+* Lens
+  * Desktop Electron based
+* Octant
+  * web app
+* kubenav
+  * Android and iOS support
+  
+* Ref: https://medium.com/dictcp/kubernetes-gui-clients-in-2020-kube-dashboard-lens-octant-and-kubenav-ce28df9bb0f0#01a8
