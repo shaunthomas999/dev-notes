@@ -2,7 +2,10 @@
 
 ## Kubernetes tools
 
-* Ref: https://kubernetes.io/docs/tasks/tools/
+* kind
+* minikube
+* kubeadm
+   * Ref: https://kubernetes.io/docs/tasks/tools/
 
 ## Kubectl
 
