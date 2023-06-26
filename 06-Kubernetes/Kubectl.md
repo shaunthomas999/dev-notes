@@ -21,7 +21,9 @@
     * Deleting a pod therefore works as a restart.
 * `kubectl get pod <pod_name> -w` - Watch a pod
 * `watch -n 1 kubectl get pod <pod_name>`
-  `brew install watch`
+  * `brew install watch`
+* `kubectl get pods --selector <label_name>=<label_value>`
+* `kubectl get pods -l env=ae`
 
 ## Events
 
