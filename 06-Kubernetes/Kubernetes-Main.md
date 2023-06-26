@@ -28,8 +28,13 @@
   * from Google
 * Lens
   * Desktop Electron based
+  * `brew reinstall --cask lens`
+  * Register - and opt for free desktop version
+  * Make lens point to the rights kubeconfig file
 * Octant
   * web app
+  * `brew install octant`
+  * In terminal > `octant` to start the application
 * kubenav
   * Android and iOS support
   
