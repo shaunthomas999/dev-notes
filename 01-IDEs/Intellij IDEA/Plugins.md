@@ -13,6 +13,16 @@
 * `Merge Request Integration EE - Code Review for GitLab`
 * `GitLab Projects`
 
+## Kotlin
+
+* `kotest`
+
+## Diagramming / UML
+
+* `PlantUML`
+* `AppMap`
+* `SequenceDiagram`
+
 ## Others
 
 * `AsciiDoc`
@@ -20,4 +30,3 @@
 * `Lombok`
 * `Azure`
 * `Docker`
-* `PlantUML`
