@@ -21,4 +21,4 @@
 * Create local variable - `alt` + `cmd` + `v`
 * Create public class constant - `alt` + `cmd` + `c`
 * Create private class variable - `alt` + `cmd` + `h`
-* **Create method parameter - `alt` + `cmd` + `p`**
+* Create method parameter - `alt` + `cmd` + `p`
