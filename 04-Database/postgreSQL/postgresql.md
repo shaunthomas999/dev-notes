@@ -127,8 +127,16 @@
   * See the menu links on the right side
 
 ## Postgresql database settings
+
+### Server settings
 * To see all server settings - `SELECT * FROM pg_settings;`
 * Might have to reload/restart after config change*
+
+### Client settings
+
+#### pgAdmin
+* `SHOW datestyle;` - See default datestyle. Default (ISO, MDY). Here MDY means MM-DD-YYYY. ISO is YYYY-MM-DD
+* `SET datestyle = 'ISO, YMD';`
 
 ## Performance troubleshooting
 
