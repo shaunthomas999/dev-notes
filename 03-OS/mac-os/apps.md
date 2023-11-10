@@ -32,7 +32,8 @@
 * [Frameshot](https://flameshot.org/) - Screenshots management, editing etc.
 * [HiddenBar](https://apps.apple.com/nl/app/hidden-bar/id1452453066?l=en&mt=12) - Menu bar management
 * Terminals
-  * [autojump](https://github.com/wting/autojump) 
+  * [autojump](https://github.com/wting/autojump) - Jump directories in terminal
+  * [Warp](https://www.warp.dev/) - Rust based nextgen terminal with autocompletion, AI etc.
 
 ## FTP clients
 
