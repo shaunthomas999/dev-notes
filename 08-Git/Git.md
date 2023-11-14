@@ -12,5 +12,7 @@
 
 * Fetch - `git submodule update --recursive --init`
 * Update - `git submodule update --recursive --remote --init --force`
-* When there is diff in submodule commit id, even after updating - `git restore src/main/openapi`
+* When there is diff in submodule commit id, even after updating
+  * `git restore src/main/openapi`
+  * `git checkout -f --recurse-submodules`
 * More ref: https://gist.github.com/gitaarik/8735255
