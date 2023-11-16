@@ -17,7 +17,8 @@
   * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c
 * [Logitech Apps](https://support.logi.com/hc/en-us/articles/360024361233)
    * Logi Tune 
-   * Logitech G Hub
+   * [Logitech G Hub](https://www.logitechg.com/en-us/innovation/g-hub.html)
+     * Contains Yeti Blue Microphone manager and presets
    * Logi Capture
    * [Logi Options+](https://www.logitech.com/en-in/software/logi-options-plus.html)
    * Old ones
