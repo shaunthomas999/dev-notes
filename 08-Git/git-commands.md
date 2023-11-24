@@ -44,12 +44,6 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 * `git rm --cached -r .idea`
 
-## submodule
-
-* `git submodule update --recursive`
-* or 
-* `git submodule update --init --recursive` - if initialising submodule for the first time
-
 ## Cheat sheets
 
 * Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
