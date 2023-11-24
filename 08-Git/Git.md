@@ -13,6 +13,7 @@
 * Init - `git submodule update --recursive --init`
   * Force init - `git submodule update --recursive --remote --init --force`
 * Update in course of time - `git submodule update --recursive`
+* `git submodule` - to see the submodule commit id that is in use
 * When there is diff in submodule commit id, even after updating
   * `git restore src/main/openapi`
   * `git checkout -f --recurse-submodules`
