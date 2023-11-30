@@ -1,36 +1,45 @@
 [user]
-  name = Shaun Thomas
-  email = shaunthomas999@gmail.com
-[http "https://github.com"]
-  proxy =
-[http "https://bitbucket.com"]
-  proxy =
-[core]
-	excludesfile = /Users/shaunthomas/.gitignore
-	editor = subl -n -w
-	autocrlf = input
-[init]
-	defaultBranch = main
-[gc]
-# true by default. Need to set it to false for Git GUI
-	autoDetach = false
-[commit]
-	gpgSign = false
-[push]
-	recurseSubmodules = check
-[pull]
-	rebase = true
-[gui]
-	pruneduringfetch = true
-[smartgit "submodule"]
-	fetchalways = false
-	update = true
-	initializenew = true
+	name = Shaun Thomas
+	email = shaunthomas999@gmail.com
 [credential]
 	helper = osxkeychain
 	useHttpPath = true
+	helper = /usr/local/share/gcm-core/git-credential-manager
 #[filter "lfs"]
 #	clean = git-lfs clean -- %f
 #	smudge = git-lfs smudge -- %f
 #	process = git-lfs filter-process
 #	required = true
+[init]
+	defaultBranch = main
+[commit]
+	gpgSign = false
+[pull]
+	rebase = true
+[push]
+	recurseSubmodules = check
+[gui]
+	pruneduringfetch = true
+[core]
+	excludesfile = /Users/shaunthomas/.gitignore
+	editor = subl -n -w
+	autocrlf = input
+[gc]
+# true by default. Need to set it to false for Git GUI
+	autoDetach = false
+[submodule]
+	recurse = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[color]
+	ui = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[http "https://github.com"]
+  proxy =
+[http "https://bitbucket.com"]
+  proxy =
+
+
