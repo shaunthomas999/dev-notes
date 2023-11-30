@@ -81,6 +81,15 @@ To revert effect to above command use `git reset HEAD@{1}`
 
 * `git rm --cached -r .idea`
 
+## git clone
+
+* non-bare clone (normal clone) - `git clone`
+* bare clone - `git clone --bare` - Copy a repo including all history, branches, tags etc.
+* mirror clone - `git clone --mirror` - To keep a repo as a mirror to another repo
+* References
+  * https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository#mirroring-a-repository-in-another-location
+  * https://blog.tinned-software.net/git-and-multiple-remotes/
+
 ## Cheat sheets
 
 * Github - [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf]()
