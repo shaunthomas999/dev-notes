@@ -5,7 +5,8 @@
 * Use https
 * Login using token
 * Set credentials helper - `git config credential.helper osxkeychain`
-  * Alternative option, Git credentials manager - https://github.com/git-ecosystem/git-credential-manager - download & install from here 
+  * Alternative option, Git credentials manager - https://github.com/git-ecosystem/git-credential-manager
+    * Download & Install - `brew install --cask git-credential-manager` 
 * To cache credential for each local directory - `git config --global credential.useHttpPath true`
 * Go to Intellij Github plugin config
 * Login to Enterprise and Personal account using token
