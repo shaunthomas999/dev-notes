@@ -22,3 +22,12 @@
 
 * https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge
 * https://github.com/marketplace/actions/bring-your-own-badge
+
+## Troubleshoot
+
+* If any issue with push/pull, run `echo url=https://<your-github-username>@github.com | git credential reject`
+  * it will ask for credentails on next git activity. Provide it and then it will work
+
+## Github CLI
+
+* Make sure to have `read:org` in the authorised token
