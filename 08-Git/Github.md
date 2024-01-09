@@ -33,3 +33,9 @@
 ## Github CLI
 
 * Make sure to have `read:org` in the authorised token
+
+## Github Web
+
+### Filtering Options
+
+* `state:open type:pr -review:none`
