@@ -38,4 +38,4 @@
 
 ### Filtering Options
 
-* `state:open type:pr -review:none`
+* `is:open is:pr review-requested:Shaun-Thomas_afklm -review:none`
