@@ -43,9 +43,15 @@
 
 ## git reset
 
-`git reset HEAD~` - Undo last commit and make the changes available locally
+`git reset --mixed HEAD~` - Undo last commit and make the changes available locally
 
 To revert effect to above command use `git reset HEAD@{1}`
+
+![Git Reset Types](https://itknowledgeexchange.techtarget.com/coffee-talk/files/2023/08/git-reset.png)
+
+* `--soft` - Reset from HEAD but not from staging index
+* `--hard` - Reset from HEAD, staging index and working directory
+* `--mixed` - Reset from HEAD and staging index but not from working directory (you can see the changes in the working directory)
 
 ## git branch
 
