@@ -38,4 +38,6 @@
 
 ### Filtering Options
 
-* `is:open is:pr review-requested:Shaun-Thomas_afklm -review:none`
+* `is:open is:pr review-requested:Shaun-Thomas_afklm reviewed-by:Shaun-Thomas_afklm -review:none`
+* Reference
+  * All options - https://docs.github.com/en/issues/tracking-your-work-with-issues/filtering-and-searching-issues-and-pull-requests#using-search-to-filter-issues-and-pull-requests 
