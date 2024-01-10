@@ -1,5 +1,13 @@
 # Git
 
+## Git LFS (Large File Storage)
+* https://git-lfs.com/
+  * `brew install git-lfs`
+  * `git lfs install`
+  * `git lfs track "*.psd"`
+  * `git add .gitattributes`
+ * `git lfs migrate` - migrate existing files already checked-in
+
 ## Git credentials helper/manager
 
 * Main - https://github.com/git-ecosystem/git-credential-manager
