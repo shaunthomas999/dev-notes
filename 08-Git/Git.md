@@ -69,6 +69,7 @@ To revert effect to above command use `git reset HEAD@{1}`
 | `-l` or `--list` | List local branches |
 | `-d` | Delete merged local branch |
 | `-D` | Delete local branch whether merged or not |
+| `-vva` | Show all the details about branches |
 
 `git branch -d|-D [branch-name]` - To delete a branch
 
@@ -103,6 +104,12 @@ To revert effect to above command use `git reset HEAD@{1}`
 * References
   * https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository#mirroring-a-repository-in-another-location
   * https://blog.tinned-software.net/git-and-multiple-remotes/
+
+## git cherry-pick
+
+* `git checkout -b <branch_name>` - Checkout a branch
+* `git cherry-pick <commit-id>` - Cherry pick commit to the checked out branch
+* `git cherry-pick -m 1 <commit-id>` - Cherry pick a merge commit. `-m 1` means first parent which is usually the commit in the branch
 
 ## Cheat sheets
 
