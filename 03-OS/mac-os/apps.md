@@ -35,6 +35,32 @@
 * Terminals
   * [autojump](https://github.com/wting/autojump) - Jump directories in terminal
   * [Warp](https://www.warp.dev/) - Rust based nextgen terminal with autocompletion, AI etc.
+* Battery Monitor
+* Avast Suite of Products
+  * Avast Cleanup Premium
+  * Avast AntiTrack
+  * Avast Security
+  * AvastCleanup
+* Azure
+  * Azure Data Studio
+  * Azure VPN Client
+  * Microsoft Azure Storage Explorer
+* Authy Desktop
+* Be Focused
+* CleanMyMac X
+* CleanMyDrive 2
+* GoPro
+  * GoPro Player
+  * GoPro Webcam
+* GrandPerspective
+* HP Easy Scan
+* WD - Western Digital
+  * WD Drive Utilities
+  * WD Discovery
+* Whiteboard
+
+### Dev
+* MAT (Memory Analysis Tool)
 
 ## FTP clients
 
