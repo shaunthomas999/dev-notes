@@ -21,7 +21,8 @@
 # sdkman_auto_env=true
 # Ref: https://sdkman.io/usage#config
 java=17.0.8.1-tem
-maven=3.9.5
+maven=3.8.6
+gradle=7.6
 ```
 * Ref
   * https://blog.mrhaki.com/2020/10/automatic-switching-of-java-versions.html 
