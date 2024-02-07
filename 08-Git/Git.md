@@ -7,6 +7,8 @@
   * `git lfs track "*.psd"`
   * `git add .gitattributes`
  * `git lfs migrate` - migrate existing files already checked-in
+ * Supported in Github, Azure Devops etc.
+ * Look at `.gitattributes` file in the folder for reference
 
 ## Git credentials helper/manager
 
