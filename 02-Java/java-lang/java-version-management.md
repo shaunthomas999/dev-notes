@@ -20,7 +20,7 @@
 # Add the following to ~/.sdkman/etc/config
 # sdkman_auto_env=true
 # Ref: https://sdkman.io/usage#config
-java=17.0.3-tem
+java=17.0.8.1-tem
 maven=3.9.5
 ```
 * Ref
