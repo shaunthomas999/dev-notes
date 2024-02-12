@@ -99,8 +99,9 @@
 ### CLI - psql tool
 
 * `psql -U postgres` - Start psql
-* `CREATE ROLE "test-db" WITH LOGIN PASSWORD 'testdb';`
-* `CREATE DATABASE "test-db" OWNER "test-db";`
+* `CREATE ROLE "test-user" WITH LOGIN PASSWORD 'testdb';`
+* `CREATE DATABASE "test-db" OWNER "test-user";`
+* `CREATE SCHEMA "test-schema" AUTHORIZATION "test-db";`
 
 #### Superuser
 
