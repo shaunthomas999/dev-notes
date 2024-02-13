@@ -1,5 +1,7 @@
 # Mac - productivity apps
 
+## General Apps
+
 * [App Cleaner & Uninstaller](https://nektony.com/mac-app-cleaner)
   * _Ignore send report message at first and restart the app_
 * [Cheatsheet](https://mediaatelier.com/CheatSheet/) - Hold down <kbd>CMD</kbd> to see the cheatsheet for different apps
@@ -32,19 +34,12 @@
   * [Fluor](https://github.com/Pyroh/Fluor) - Fn key assignment
 * [Frameshot](https://flameshot.org/) - Screenshots management, editing etc.
 * [HiddenBar](https://apps.apple.com/nl/app/hidden-bar/id1452453066?l=en&mt=12) - Menu bar management
-* Terminals
-  * [autojump](https://github.com/wting/autojump) - Jump directories in terminal
-  * [Warp](https://www.warp.dev/) - Rust based nextgen terminal with autocompletion, AI etc.
 * Battery Monitor
 * Avast Suite of Products
   * Avast Cleanup Premium
   * Avast AntiTrack
   * Avast Security
   * AvastCleanup
-* Azure
-  * Azure Data Studio
-  * Azure VPN Client
-  * Microsoft Azure Storage Explorer
 * Authy Desktop
 * Be Focused
 * CleanMyMac X
@@ -59,8 +54,24 @@
   * WD Discovery
 * Whiteboard
 
-### Dev
+## Dev tools
 * MAT (Memory Analysis Tool)
+
+### REST clients
+* Postman
+* Insomnia
+* Bruno - `brew install bruno`
+* Advanced Rest Client
+* SOAP-UI
+
+### Azure
+* Azure Data Studio
+* Azure VPN Client
+* Microsoft Azure Storage Explorer
+
+### Terminals
+* [autojump](https://github.com/wting/autojump) - Jump directories in terminal
+* [Warp](https://www.warp.dev/) - Rust based nextgen terminal with autocompletion, AI etc.
 
 ## FTP clients
 
