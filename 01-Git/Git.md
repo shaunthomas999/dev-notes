@@ -29,7 +29,9 @@
   - `git submodule update --recursive --remote --init --force` - Force init
 
 ### Update
-* Update in course of time - `git submodule update --recursive --init`
+* Update in course of time
+  * `git submodule update --recursive --remote --force`
+  * ~`git submodule update --recursive --init`~
 * `cd <submodule>`
 * `<submodule>$> git checkout master`
 * `<submodule>$> git pull`
