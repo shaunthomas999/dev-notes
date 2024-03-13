@@ -12,6 +12,10 @@
 
 ### (3) Kubeadm
 
+### (4) Podman
+
+* https://podman.io/
+
 ### Reference
 
 * * Ref: https://kubernetes.io/docs/tasks/tools/
@@ -39,3 +43,8 @@
   * Android and iOS support
   
 * Ref: https://medium.com/dictcp/kubernetes-gui-clients-in-2020-kube-dashboard-lens-octant-and-kubenav-ce28df9bb0f0#01a8
+
+## Other tools
+
+* Skaffold - https://skaffold.dev/ - Tool to create a workflow to build, tag, push and deploy application in Kubernetes cluster
+* Telepresence - https://github.com/telepresenceio/telepresence - Code and test microservices locally against a remote Kubernetes cluster.
