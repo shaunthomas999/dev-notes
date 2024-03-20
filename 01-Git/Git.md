@@ -9,7 +9,8 @@
  * `git lfs migrate` - migrate existing files already checked-in
  * Supported in Github, Azure Devops etc.
  * Look at `.gitattributes` file in the folder for reference
-
+ * See config - `git lfs env`
+   * `git lfs version`
 ## Git credentials helper/manager
 
 * Main - https://github.com/git-ecosystem/git-credential-manager
