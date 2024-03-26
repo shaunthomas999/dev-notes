@@ -181,6 +181,10 @@ AND now() - query_start > interval '5 minutes';
 //-- state = 'idle'
 //-- state != 'idle'
 ```
+
+## Special SQLs
+* UUID generation - `uuid_in(md5(random()::text || random()::text)::cstring)`
+* Timestamp - `NOW()::timestamp`
  
 ## Cheatsheets
 
