@@ -3,13 +3,19 @@
 	email = shaunthomas999@gmail.com
 [credential]
 	helper = osxkeychain
+	# helper = /usr/local/share/gcm-core/git-credential-manager
 	useHttpPath = true
-	helper = /usr/local/share/gcm-core/git-credential-manager
-#[filter "lfs"]
-#	clean = git-lfs clean -- %f
-#	smudge = git-lfs smudge -- %f
-#	process = git-lfs filter-process
-#	required = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[http "https://github.com"]
+	proxy =
+[http "https://bitbucket.com"]
+	proxy =
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [init]
 	defaultBranch = main
 [commit]
@@ -29,17 +35,9 @@
 	autoDetach = false
 [submodule]
 	recurse = true
+[color]
+	ui = true
 [smartgit "submodule"]
 	fetchalways = false
 	update = true
 	initializenew = true
-[color]
-	ui = true
-[credential "https://dev.azure.com"]
-	useHttpPath = true
-[http "https://github.com"]
-  proxy =
-[http "https://bitbucket.com"]
-  proxy =
-
-
