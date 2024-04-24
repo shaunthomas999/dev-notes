@@ -1,20 +1,17 @@
 # AI Tools
 
-1. 🥱 Boilerplate / Repetitive code
-
-2. 🔍 Write tests
-
-3. 📑 Explain / document code
+* 🥱 Boilerplate / Repetitive code
+* 🔍 Write tests
+* 📑 Explain / document code
   * mintlify.com
   * theneo.io
-
-4. 🛠️ Refactor small functions
-
-5. 🗄 SQL queries
+* 🛠️ Refactor small functions
+* 🗄 SQL queries
   * mason.app
-
-6. ⬆️ Pull Requests
+* ⬆️ Pull Requests
   * ai.codacy.com
-
-7. 💻 Terminal
+* 💻 Coding assistant
+  * https://plandex.ai/
+  * https://aider.chat/ 
+* 💻 Terminal
   * warp.dev
