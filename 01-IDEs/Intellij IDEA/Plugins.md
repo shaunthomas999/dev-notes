@@ -13,9 +13,15 @@
 * `Merge Request Integration EE - Code Review for GitLab`
 * `GitLab Projects`
 
+## Github Actions
+
+* [GitHub Actions Manager](https://plugins.jetbrains.com/plugin/19347-github-actions-manager)
+* [Github Workflow](https://plugins.jetbrains.com/plugin/21396-github-workflow)
+
 ## Kotlin
 
 * `kotest`
+* `ktlint`
 
 ## Diagramming / UML
 
