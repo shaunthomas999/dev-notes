@@ -20,6 +20,8 @@
 * Interact
   * `createuser -s postgres` - create user postgres
   * `psql -U postgres` - login postgres user
+* Binaries are in `/opt/homebrew/opt/postgresql@14/bin`
+* Run not as daemon `/opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14`
 * References
   * https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/ 
   * https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3
