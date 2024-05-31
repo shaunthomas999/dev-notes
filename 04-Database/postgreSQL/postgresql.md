@@ -193,7 +193,8 @@ select pid,
 from pg_stat_activity
 where cardinality(pg_blocking_pids(pid)) > 0;
 ```
-    * to terminate all these PIDs replace `pid` in the select query with `pg_terminate_backend(pid)`
+
+  * to terminate all these PIDs replace `pid` in the select query with `pg_terminate_backend(pid)`
 
 ## Special SQLs
 * UUID generation - `uuid_in(md5(random()::text || random()::text)::cstring)`
