@@ -184,6 +184,17 @@ AND now() - query_start > interval '5 minutes';
 //-- state != 'idle'
 ```
 
+  * To find all blocking PIDs
+```sql
+select pid, 
+       usename, 
+       pg_blocking_pids(pid) as blocked_by, 
+       query as blocked_query
+from pg_stat_activity
+where cardinality(pg_blocking_pids(pid)) > 0;
+```
+    * to terminate all these PIDs replace `pid` in the select query with `pg_terminate_backend(pid)`
+
 ## Special SQLs
 * UUID generation - `uuid_in(md5(random()::text || random()::text)::cstring)`
 * Timestamp - `NOW()::timestamp`
