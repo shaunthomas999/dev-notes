@@ -12,6 +12,10 @@
 * Deployment
   * `kubectl logs -f deploy/<pod_name>`
 
+## All
+
+* `kubectl get all`
+
 ## Pods
 
 * `kubectl get pods`
@@ -31,14 +35,20 @@
 
 ## Services
 
-* kubectl get services
-* kubectl describe service <service-name>
+* `kubectl get services`
+* `kubectl describe service <service-name>`
 
 ## Ingress
 
-* kubectl get ingresses
-* kubectl describe ingress <ingress-name>
+* `kubectl get ingresses`
+* `kubectl describe ingress <ingress-name>`
 
 ## Exec
 
 * `kubectl exec -it <pod-name> -- /bin/bash`
+
+## Kubectl Plugins
+
+### Krew
+
+* Install - [https://krew.sigs.k8s.io/docs/user-guide/setup/install/]()
