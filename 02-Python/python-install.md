@@ -50,7 +50,10 @@ pyenv rehash
   * `pip freeze > requirements.txt` - Create requirements.txt
   * `pip install -r requirements.txt` - Install packages in requirements.txt file
 
-* Sample project - https://github.com/shaunthomas999/Python_Playground/
+* My Sample project - https://github.com/shaunthomas999/Python_Playground/
+* Reference template - https://github.com/ltsaprounis/python-project-template/
+  * See `setup.py` file
+  * Package inside it are installed using command `pip install -e .` (development dependencies) 
 
 * References
   * https://packaging.python.org/en/latest/tutorials/installing-packages/#ensure-you-can-run-pip-from-the-command-line
