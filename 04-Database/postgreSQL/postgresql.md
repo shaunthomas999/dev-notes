@@ -197,7 +197,7 @@ where cardinality(pg_blocking_pids(pid)) > 0;
   * to terminate all these PIDs replace `pid` in the select query with `pg_terminate_backend(pid)`
 
 ## Special SQLs
-* UUID generation - `uuid_in(md5(random()::text || random()::text)::cstring)`
+* UUID generation - `uuid_in(overlay(overlay(md5(random()::text || ':' || random()::text) placing '4' from 13) placing to_hex(floor(random() * (11 - 8 + 1) + 8)::int)::text from 17)::cstring)`
 * Timestamp - `NOW()::timestamp`
  
 ## Cheatsheets
