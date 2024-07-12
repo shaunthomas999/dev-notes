@@ -47,6 +47,10 @@
 
 * `kubectl exec -it <pod-name> -- /bin/bash`
 
+## Port-forward
+
+* `kubectl port-forward <pod_name> 8080:8080`
+
 ## Kubectl Plugins
 
 ### Krew
