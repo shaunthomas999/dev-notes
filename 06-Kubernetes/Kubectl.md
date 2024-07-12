@@ -5,6 +5,31 @@
   * To check whether everything in the Kubernetes cluster has started up properly 
   * `kubectl get --raw='/readyz?verbose&exclude=etcd'` to exclude some
 
+## Version
+
+* `kubectl version -o json`
+
+## Config
+
+* `kubectl config view`
+  * Contexts needs to be configured
+* `kubectl get cluster details`
+* `kubectl cluster-info`
+
+## Apply
+
+* `kubectl apply -f app.yml`
+  * `kubectl apply -f *.yml`
+
+## Describe
+
+* `kubectl describe <_>`
+
+## Scale
+
+* `kubectl scale –replicas=3 <container_name>`
+* `kubectl autoscale`
+
 ## Logs
 
 * `kubectl logs -f <pod_name> --all-containers`
@@ -29,6 +54,12 @@
 * `kubectl get pods --selector <label_name>=<label_value>`
 * `kubectl get pods -l env=ae`
 
+## Nodes
+
+* `kubectl get nodes`
+* `kubectl get nodes -o wide`
+
+
 ## Events
 
 * `kubectl get events`
@@ -37,6 +68,10 @@
 
 * `kubectl get services`
 * `kubectl describe service <service-name>`
+
+## Deployment
+
+* `kubectl get deployment`
 
 ## Ingress
 
@@ -49,8 +84,17 @@
 
 ## Port-forward
 
+* Forward port from local to pod/service/deployment
 * `kubectl port-forward <pod_name> 8080:8080`
+  * `kubectl port-forward pod/<pod_name> 8080:8080`
+  * `kubectl port-forward service/<service_name> 8080:8080`
+  * `kubectl port-forward deployment/<deployment_name> 8080:8080`
 
+## Proxy
+
+* kubectl proxy is used for accessing the K8s API server, allowing you to interact with various K8s resources
+* `kubectl proxy`
+  
 ## Kubectl Plugins
 
 ### Krew
