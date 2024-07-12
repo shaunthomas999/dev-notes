@@ -18,6 +18,7 @@
 * `kubectl config use-context <my-cluster-name>`
 * `kubectl get cluster details`
 * `kubectl cluster-info`
+* `curl -u <username> -o kube_config_file -v <url> && export KUBECONFIG=kube_config_file`
 
 ## Apply
 
