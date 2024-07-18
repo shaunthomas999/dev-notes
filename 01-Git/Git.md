@@ -34,7 +34,7 @@
   * `git submodule update --recursive --remote --force`
   * ~`git submodule update --recursive --init`~
 * `cd <submodule>`
-* `<submodule>$> git checkout master`
+* `<submodule>$> git checkout main`
 * `<submodule>$> git pull`
     - Pull down the changes
     - Then go to parent git project
