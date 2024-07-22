@@ -21,18 +21,19 @@
 
 ## Git submodules
 
-### Add
+### Add submodule
 * `git submodule add <git_repository_url> <submodule_path>` - To add a git submodule
   - After add the submodule folder will be empty. The below command will load files into the submodules's folder
 * `git submodule update --recursive --init`
   - Setup the submodule the first time
-  - `git submodule update --init` - Simple
-  - `git submodule update --recursive --remote --init --force` - Force init
+  - `git submodule update --recursive --init` - Simple
+  - `git submodule update --recursive --init --force` - Force init
+  - `git submodule update --recursive --remote --init --force` - Remote force init
 
-### Update
+### Update submodule
 * Update in course of time
+  * `git submodule update --recursive --remote`
   * `git submodule update --recursive --remote --force`
-  * ~`git submodule update --recursive --init`~
 * `cd <submodule>`
 * `<submodule>$> git checkout main`
 * `<submodule>$> git pull`
@@ -41,12 +42,13 @@
 * `git add <submodule_path>`
 * `git commit -m "Message about submodule commit"`
 
-### View
+### View submodule
 * `git submodule` - To know about which commit is in submodule
   
 ### Dealing with submodule differences in git
 * When there is diff in submodule commit id, even after updating
-  * `git restore src/main/openapi`
+  * `git restore <path_to_submodule_folder>`
+    * E.g. - `git restore src/main/openapi`
   * `git checkout -f --recurse-submodules`
   * More ref: https://gist.github.com/gitaarik/8735255
 
