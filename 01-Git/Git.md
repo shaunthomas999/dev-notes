@@ -51,6 +51,9 @@
     * E.g. - `git restore src/main/openapi`
   * `git checkout -f --recurse-submodules`
   * More ref: https://gist.github.com/gitaarik/8735255
+* Other commands
+  * `git submodule update --recursive --remote --force`
+  * `git submodule update --recursive --remote --init --force` 
 
 ## git rebase
 
