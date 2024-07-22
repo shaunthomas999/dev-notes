@@ -44,11 +44,11 @@
 ### View
 * `git submodule` - To know about which commit is in submodule
   
-### Others
+### Dealing with submodule differences in git
 * When there is diff in submodule commit id, even after updating
   * `git restore src/main/openapi`
   * `git checkout -f --recurse-submodules`
-* More ref: https://gist.github.com/gitaarik/8735255
+  * More ref: https://gist.github.com/gitaarik/8735255
 
 ## git rebase
 
