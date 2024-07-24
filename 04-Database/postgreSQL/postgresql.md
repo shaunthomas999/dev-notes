@@ -10,9 +10,10 @@
 ### (2) Enterprise DB
 * https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
 
-### (3) Docker
+### (3) Docker / docker-compose
 * https://hub.docker.com/_/postgres
 * https://docs.docker.com/engine/examples/postgresql_service/
+  * Good ref - docker-compose - Postgresql + pgAdmin - https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin
 
 ### (4) Homebrew
 * Install - `brew install postgresql@14`
