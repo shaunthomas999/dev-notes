@@ -15,6 +15,8 @@
 * https://docs.docker.com/engine/examples/postgresql_service/
   * Good ref - docker-compose - Postgresql + pgAdmin - https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin
 
+_!! See setup section for more commands !!_
+
 ### (4) Homebrew
 * Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
