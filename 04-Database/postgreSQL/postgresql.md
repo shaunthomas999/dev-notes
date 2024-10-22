@@ -33,6 +33,7 @@ _!! See setup section for more commands !!_
 * `pg_ctl -D /usr/local/var/postgres start`
 * `pg_ctl -D /usr/local/var/postgres stop`
 * `pg_ctl -D /usr/local/var/postgres status`
+  * `pg_ctl -D /opt/homebrew/var/postgresql@14 status` 
 * `-D` - data directory
 * If installed by @14 brew install command then data directory is in `/opt/homebrew/var/postgresql@14`
 * More options > https://www.postgresql.org/docs/current/app-pg-ctl.html
