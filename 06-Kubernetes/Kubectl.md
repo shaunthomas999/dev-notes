@@ -118,3 +118,6 @@
 ### Krew
 
 * Install - [https://krew.sigs.k8s.io/docs/user-guide/setup/install/]()
+* Useful plugins
+  * `tree` - Helps to visualise relationship b/w k8s resources related to a deployment like pod, replicatSet, services etc.
+    *  `kubectl tree deployment <deployment-name>`
