@@ -112,7 +112,27 @@
 
 * kubectl proxy is used for accessing the K8s API server, allowing you to interact with various K8s resources
 * `kubectl proxy`
-  
+
+## Delete
+```bash
+kubectl delete deployment <name>
+kubectl delete service <name>
+kubectl delete ingress <name>
+kubectl delete secret <name>
+kubectl delete configmap <name>
+kubectl delete rs <name>
+
+// OR see using tree plugin - installed via krew
+kubectl tree deployment <name>
+
+kubectl get deployment <name>
+kubectl get service <name>
+kubectl get ingress <name>
+kubectl get secret <name>
+kubectl get configmap <name>
+kubectl get rs <name>
+```
+
 ## Kubectl Plugins
 
 ### Krew
