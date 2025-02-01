@@ -13,7 +13,6 @@
 * Flycut - Clipboard Manager
 * Amphitamine - Keep your laptop awake
 * App screensize management
-  * Spectacle - Window Alignment Manager
   * [Rectangle](https://rectangleapp.com/)
 * Gifski - For making GIFs from .mov files
   * Ref: https://medium.com/macoclock/how-to-create-a-screencast-gif-75ef6931f43c
