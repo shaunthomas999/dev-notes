@@ -23,7 +23,9 @@ brew install --cask docker \
   slack \
   mat \
   visualvm \
-  keka
+  keka \
+  rectangle \
+  dotnet
 ```
 ## Fonts for coding
 
