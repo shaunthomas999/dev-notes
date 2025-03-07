@@ -1,0 +1,111 @@
+# dev-notes
+  - [README.md](https://github.com/shaunthomas999/dev-notes/blob/main/./README.md)
+  - **11-Swagger**
+    - [swagger_notes.md](https://github.com/shaunthomas999/dev-notes/blob/main/./11-Swagger/swagger_notes.md)
+  - **02-Angular**
+    - [Angular.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Angular/Angular.md)
+  - **04-Cache**
+    - [Redis.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Cache/Redis.md)
+  - **01-Git**
+    - [Git.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-Git/Git.md)
+    - [Github.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-Git/Github.md)
+    - [gitignore-os.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-Git/gitignore-os.md)
+    - [gitignore-projects.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-Git/gitignore-projects.md)
+  - **10-Kafka**
+    - [Kafka_main.md](https://github.com/shaunthomas999/dev-notes/blob/main/./10-Kafka/Kafka_main.md)
+  - **02-Java**
+    - [Java_runtime_arguments.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/Java_runtime_arguments.md)
+    - **java-lang**
+      - [java-cli.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/java-cli.md)
+      - [java-version-management.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/java-version-management.md)
+      - [keystore.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/keystore.md)
+      - [keytool.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/keytool.md)
+      - [release-cycle.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/release-cycle.md)
+      - **util**
+        - [util.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/util/util.md)
+      - **libraries**
+        - [lombok.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/libraries/lombok.md)
+      - **00-images**
+      - **collections**
+        - [java-list.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/collections/java-list.md)
+        - [java-map.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/collections/java-map.md)
+        - [utils.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/java-lang/collections/utils.md)
+    - **maven**
+      - [maven.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/maven/maven.md)
+      - [plugins.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/maven/plugins.md)
+    - **Installation**
+      - [rhel-redhat.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/Installation/rhel-redhat.md)
+    - **gradle**
+      - [gradle.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/gradle/gradle.md)
+    - **Testing**
+      - **junit**
+        - [junit5.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/Testing/junit/junit5.md)
+      - **mockito**
+        - [mockito.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/Testing/mockito/mockito.md)
+    - **Scanners**
+      - [Sonar.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/Scanners/Sonar.md)
+    - **spring**
+      - [spring-production.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Java/spring/spring-production.md)
+  - **01-IDEs**
+    - **VS Code (Visual Studio Code)**
+      - [plugins.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-IDEs/VS Code (Visual Studio Code)/plugins.md)
+    - **Intellij IDEA**
+      - [General.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-IDEs/Intellij IDEA/General.md)
+      - [Plugins.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-IDEs/Intellij IDEA/Plugins.md)
+      - [Settings.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-IDEs/Intellij IDEA/Settings.md)
+      - [Shortcuts.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-IDEs/Intellij IDEA/Shortcuts.md)
+  - **00-SoftwareEngineering**
+    - [Big O Notation.md](https://github.com/shaunthomas999/dev-notes/blob/main/./00-SoftwareEngineering/Big O Notation.md)
+    - [code_analysis.md](https://github.com/shaunthomas999/dev-notes/blob/main/./00-SoftwareEngineering/code_analysis.md)
+  - **06-Kubernetes**
+    - [Kubectl.md](https://github.com/shaunthomas999/dev-notes/blob/main/./06-Kubernetes/Kubectl.md)
+    - [Kubernetes-Main.md](https://github.com/shaunthomas999/dev-notes/blob/main/./06-Kubernetes/Kubernetes-Main.md)
+  - **01-OS**
+    - **mac-os**
+      - [apps.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-OS/mac-os/apps.md)
+      - [brew.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-OS/mac-os/brew.md)
+      - [issue-resolutions.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-OS/mac-os/issue-resolutions.md)
+      - [tips-tricks-hacks.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-OS/mac-os/tips-tricks-hacks.md)
+    - **redhat**
+      - [redhat.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-OS/redhat/redhat.md)
+  - **03-Web**
+    - [html.md](https://github.com/shaunthomas999/dev-notes/blob/main/./03-Web/html.md)
+    - **02-Rust**
+      - [Rust-notes.md](https://github.com/shaunthomas999/dev-notes/blob/main/./03-Web/02-Rust/Rust-notes.md)
+  - **07-ELK**
+    - [Kibana.md](https://github.com/shaunthomas999/dev-notes/blob/main/./07-ELK/Kibana.md)
+  - **04-Database**
+    - [database_general.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Database/database_general.md)
+    - **postgreSQL**
+      - [postgresql.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Database/postgreSQL/postgresql.md)
+    - **oracle**
+      - [sql-developer.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Database/oracle/sql-developer.md)
+      - [sqlSamples.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Database/oracle/sqlSamples.md)
+      - **00-images**
+    - **sqlServer**
+      - [sequence.md](https://github.com/shaunthomas999/dev-notes/blob/main/./04-Database/sqlServer/sequence.md)
+  - **12 - Artifical Inteligence**
+    - [Artificial Inteligence.md](https://github.com/shaunthomas999/dev-notes/blob/main/./12 - Artifical Inteligence/Artificial Inteligence.md)
+  - **03-Linux - Unix**
+    - [linux - unix commands.md](https://github.com/shaunthomas999/dev-notes/blob/main/./03-Linux - Unix/linux - unix commands.md)
+    - [ssh.md](https://github.com/shaunthomas999/dev-notes/blob/main/./03-Linux - Unix/ssh.md)
+    - **Bash**
+      - [bash_script_samples.md](https://github.com/shaunthomas999/dev-notes/blob/main/./03-Linux - Unix/Bash/bash_script_samples.md)
+  - **09-Markdown**
+    - [markdown.md](https://github.com/shaunthomas999/dev-notes/blob/main/./09-Markdown/markdown.md)
+  - **06-Docker**
+    - [dockerCommands.md](https://github.com/shaunthomas999/dev-notes/blob/main/./06-Docker/dockerCommands.md)
+  - **90-productivity**
+    - [Microsoft Teams.md](https://github.com/shaunthomas999/dev-notes/blob/main/./90-productivity/Microsoft Teams.md)
+    - [google-calendar.md](https://github.com/shaunthomas999/dev-notes/blob/main/./90-productivity/google-calendar.md)
+  - **02-Python**
+    - [Django.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Python/Django.md)
+    - [Flask.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Python/Flask.md)
+    - [python-install.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Python/python-install.md)
+  - **05-Cloud**
+    - [aws.md](https://github.com/shaunthomas999/dev-notes/blob/main/./05-Cloud/aws.md)
+  - **01-AI**
+    - [AI-Tools.md](https://github.com/shaunthomas999/dev-notes/blob/main/./01-AI/AI-Tools.md)
+  - **02-Nodejs**
+    - [Yarn.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Nodejs/Yarn.md)
+    - [nodejs.md](https://github.com/shaunthomas999/dev-notes/blob/main/./02-Nodejs/nodejs.md)

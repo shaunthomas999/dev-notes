@@ -3,6 +3,6 @@
   * [code_analysis](00-SoftwareEngineering/code_analysis.md)
 * [01-AI](01-AI)
   * [AI-Tools](01-AI/AI-Tools.md)
-* [90-productivity](https://github.com/shaunthomas999/dev-notes/blob/master/90-productivity/)
+* [90-productivity](90-productivity)
   * [google-calendar](90-productivity/google-calendar.md)
   * [Microsoft Teams](<90-productivity/Microsoft Teams.md>)
