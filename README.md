@@ -86,7 +86,6 @@
   - oracle
     - [sql-developer.md](<./04-Database/oracle/sql-developer.md>)
     - [sqlSamples.md](<./04-Database/oracle/sqlSamples.md>)
-    - 00-images
   - sqlServer
     - [sequence.md](<./04-Database/sqlServer/sequence.md>)
 - 05-Cloud
