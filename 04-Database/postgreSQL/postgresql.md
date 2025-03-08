@@ -2,25 +2,10 @@
 
 ## Installation - Server
 
-### (1) Postgres App 
-* Download and install PostgreSQL app from https://postgresapp.com/
-* Start the app and click Initialize button
-* Then in the database shown, click on the one with name 'postgres'
-
-### (2) Enterprise DB
-* https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
-
-### (3) Docker / docker-compose
-* https://hub.docker.com/_/postgres
-* https://docs.docker.com/engine/examples/postgresql_service/
-  * Good ref - docker-compose - Postgresql + pgAdmin - https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin
-
-_!! See setup section for more commands !!_
-
-### (4) Homebrew
+### (1) Homebrew
 * Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
-* Interact
+* Initial setup
   * `createuser -s postgres` - create user postgres
   * `psql -U postgres` - login postgres user
 * Binaries are in `/opt/homebrew/opt/postgresql@14/bin`
@@ -39,9 +24,39 @@ _!! See setup section for more commands !!_
 * More options > https://www.postgresql.org/docs/current/app-pg-ctl.html
 
 #### Start & Stop automatically now & on login
-* Start - `brew services start postgresql`
-* Stop - `brew services stop postgresql`
-* Restart - `brew services restart postgresql`
+* Start - `brew services start postgresql@14`
+* Stop - `brew services stop postgresql@14`
+* Restart - `brew services restart postgresql@14`
+
+### (2) Postgres App 
+* Download and install PostgreSQL app from https://postgresapp.com/
+* Start the app and click Initialize button
+* Then in the database shown, click on the one with name 'postgres'
+
+### (3) Enterprise DB
+* https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
+
+### (4) Docker / docker-compose
+* Run commands
+  * `docker pull postgres:16-alpine`
+  * `docker run --name postgres16 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:16-alpine`
+  * `docker exec postgres16 psql -U postgres -c "CREATE DATABASE testdb" postgres`
+* Now connect from Intellij IDEA
+
+_!! Make sure Homebrew is not running Postgresql on the same port locally !!_
+
+* docker-compose
+  * https://hub.docker.com/_/postgres
+  * https://docs.docker.com/engine/examples/postgresql_service/
+    * Good ref - docker-compose - Postgresql + pgAdmin - https://github.com/docker/awesome-compose/tree/master/postgresql-pgadmin
+  
+#### References
+* Dockerfile - https://github.com/docker-library/postgres/blob/4edbda205c684c861e6fbf964de5d00845864d42/12/alpine/Dockerfile
+* Default port - 5432
+* Default volume - `/var/lib/postgresql/data`
+* PSQL command - `psql -h localhost -p 5432 -d postgres -U postgres --password`
+* Ref:
+  * https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
 
 ## Installation - Client
 
@@ -64,26 +79,6 @@ _!! See setup section for more commands !!_
 
 ### Others
 * https://pgdash.io/blog/postgres-gui-tools.html
-
-## Setup steps
-
-### Docker
-
-* Run commands
-  * `docker pull postgres:16-alpine`
-  * `docker run --name postgres16 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5433:5432 -d postgres:16-alpine`
-  * `docker exec postgres16 psql -U postgres -c "CREATE DATABASE testdb" postgres`
-* Now connect from Intellij IDEA
-
-#### References
-* Dockerfile - https://github.com/docker-library/postgres/blob/4edbda205c684c861e6fbf964de5d00845864d42/12/alpine/Dockerfile
-* Default port - 5432
-* Default volume - `/var/lib/postgresql/data`
-* PSQL command - `psql -h localhost -p 5432 -d postgres -U postgres --password`
-
-
-### Setup reference
-* https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
 
 ## Create Role and Database
 
