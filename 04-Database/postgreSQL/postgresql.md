@@ -28,15 +28,7 @@
 * Stop - `brew services stop postgresql@14`
 * Restart - `brew services restart postgresql@14`
 
-### (2) Postgres App 
-* Download and install PostgreSQL app from https://postgresapp.com/
-* Start the app and click Initialize button
-* Then in the database shown, click on the one with name 'postgres'
-
-### (3) Enterprise DB
-* https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
-
-### (4) Docker / docker-compose
+### (2) Docker / docker-compose
 * Run commands
   * `docker pull postgres:16-alpine`
   * `docker run --name postgres16 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres:16-alpine`
@@ -57,6 +49,14 @@ _!! Make sure Homebrew is not running Postgresql on the same port locally !!_
 * PSQL command - `psql -h localhost -p 5432 -d postgres -U postgres --password`
 * Ref:
   * https://www.codementor.io/@engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
+
+### (3) Postgres App 
+* Download and install PostgreSQL app from https://postgresapp.com/
+* Start the app and click Initialize button
+* Then in the database shown, click on the one with name 'postgres'
+
+### (4) Enterprise DB
+* https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
 
 ## Installation - Client
 
