@@ -5,10 +5,18 @@
 ### (1) Homebrew
 * Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
+* `brew services list` - See which versions of postgresql have been installed and which version is running now
+* To switch versions:
+  * `brew services stop postgresql@14`
+  * `brew services start postgresql@13`
+  * `brew unlink postgresql@14`
+  * `brew link postgresql@13`
+  * `echo 'export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"' >> ~/.zshrc`
 * Initial setup
   * `createuser -s postgres` - create user postgres
   * `psql -U postgres` - login postgres user
 * Binaries are in `/opt/homebrew/opt/postgresql@14/bin`
+  * Default binaries `postgres` and `psql` are in `/opt/homebrew/bin` 
 * Run not as daemon `/opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14`
 * References
   * https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/ 
