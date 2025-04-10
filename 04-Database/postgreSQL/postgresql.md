@@ -6,7 +6,11 @@
 * Install - `brew install postgresql@14`
   * At successful installation this message - 'This formula has created a default database cluster with: initdb --locale=C -E UTF-8 /opt/homebrew/var/postgres'
 * `brew services list` - See which versions of postgresql have been installed and which version is running now
-* To switch versions:
+* **Start & Stop automatically now & on login**
+  * Start - `brew services start postgresql@14`
+  * Stop - `brew services stop postgresql@14`
+  * Restart - `brew services restart postgresql@14`
+* **To switch versions:**
   * `brew services stop postgresql@14`
   * `brew services start postgresql@13`
   * `brew unlink postgresql@14`
@@ -31,11 +35,6 @@
 * `-D` - data directory
 * If installed by @14 brew install command then data directory is in `/opt/homebrew/var/postgresql@14`
 * More options > https://www.postgresql.org/docs/current/app-pg-ctl.html
-
-#### Start & Stop automatically now & on login
-* Start - `brew services start postgresql@14`
-* Stop - `brew services stop postgresql@14`
-* Restart - `brew services restart postgresql@14`
 
 ### (2) Docker / docker-compose
 * Run commands
