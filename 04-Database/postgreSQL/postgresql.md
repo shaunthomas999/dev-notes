@@ -14,6 +14,7 @@
   * `echo 'export PATH="/opt/homebrew/opt/postgresql@13/bin:$PATH"' >> ~/.zshrc`
 * Initial setup
   * `createuser -s postgres` - create user postgres
+    * By default a user is also created with the home user name i.e. `shaunthomas` 
   * `psql -U postgres` - login postgres user
 * Binaries are in `/opt/homebrew/opt/postgresql@14/bin`
   * Default binaries `postgres` and `psql` are in `/opt/homebrew/bin` 
