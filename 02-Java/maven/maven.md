@@ -57,6 +57,7 @@ Run the following commands inside the folder containing pom.xml files
   * `-Dincludes=[group]:[artifact_name]:[type]:[version]` - E.g., `mvn dependency:tree -Dincludes=:hibernate*`. Use wild card `*` to cover different possibilities
   * Ref: [filtering-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html)
   * Ref: [resolving-conflicts-using-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html)
+* `mvn versions:display-dependency-updates`
 
 ### Relative dependency comparison
 * Run `mvn compile dependency:tree >> temp_v01.txt` to store dependency tree to the file
