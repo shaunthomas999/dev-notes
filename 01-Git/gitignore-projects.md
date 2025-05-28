@@ -1,8 +1,6 @@
 # .gitignore reference
 
-~## For including in personal projects~
-
-~## For global project~
+* For including in personal projects or for global exclusion
 
 ```
 ### OS generated files ###
