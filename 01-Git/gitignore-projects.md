@@ -5,11 +5,15 @@
 ~## For global project~
 
 ```
-### Java ###
-/target/
-
-### Maven wrapper ###
-!.mvn/wrapper/maven-wrapper.jar
+### OS generated files ###
+**/.DS_Store
+#.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 ### STS ###
 .apt_generated
@@ -37,23 +41,18 @@
 ### VS Code ###
 .vscode/
 
-### OS generated files ###
-**/.DS_Store
-#.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-### Logs ###
-*.log
-
 ### spring-boot ###
 target/
 **/logs
 **/work
 tmp
 
+### Java ###
+/target/
+
+### Maven wrapper ###
+!.mvn/wrapper/maven-wrapper.jar
+
+### Logs ###
+*.log
 ```
