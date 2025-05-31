@@ -40,14 +40,14 @@
 .vscode/
 
 ### spring-boot ###
+target/
 **/target
 **/logs
 **/work
-**/tmp
+*.log
+tmp
 
 ### Maven wrapper ###
 !.mvn/wrapper/maven-wrapper.jar
 
-### Logs ###
-**/*.log
 ```
