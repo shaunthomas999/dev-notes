@@ -36,10 +36,14 @@
     * With Java application - https://www.youtube.com/watch?v=rdpHayz4OOk
 * `SequenceDiagram`
 
-## Others
-
-* `AsciiDoc`
+## Scanner - Dependency checks
+* Mend - Check / Code check
 * `Sonarlint`
+
+## Java / Kotlin
 * `Lombok`
+  
+## Others
+* `AsciiDoc`
 * `Azure`
 * `Docker`
