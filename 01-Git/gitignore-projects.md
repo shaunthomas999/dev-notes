@@ -13,7 +13,7 @@
 **/Thumbs.db
 **/Desktop.ini
 
-### STS ###
+### Eclipse / STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -27,14 +27,6 @@
 *.iws
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
 
 ### VS Code ###
 .vscode/
