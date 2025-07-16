@@ -39,6 +39,8 @@
 ## Scanner - Dependency checks
 * Mend - Check / Code check
 * `Sonarlint`
+* `google-java-format`
+  * Config -  https://github.com/google/google-java-format/blob/master/README.md#intellij-jre-config
 
 ## Java / Kotlin
 * `Lombok`
