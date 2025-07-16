@@ -16,6 +16,7 @@
 * Main - https://github.com/git-ecosystem/git-credential-manager
   * Install - https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md
 * git config --global credential.helper store
+  * Stores credentials as plain text in `~/.git-credentials` 
 * git config --global credential.helper cache
 * git config --global credential.helper 'cache --timeout=600'
 
