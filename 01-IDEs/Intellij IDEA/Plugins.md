@@ -1,4 +1,4 @@
-# Plugins
+# Intellij Plugins - Java / Kotlin / Javascript / Typescript / Python
 
 ## Format
 
