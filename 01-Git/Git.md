@@ -16,10 +16,12 @@
 * Main - https://github.com/git-ecosystem/git-credential-manager
   * Install - https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md (macOS / Windows / Linux)
     * Windows - standalone - Git Credentials Manager - https://github.com/git-ecosystem/git-credential-manager/releases - Download latest version
-* git config --global credential.helper store 
+* `git config --global credential.helper manager`
+  * newer version - `manager-core` 
+* `git config --global credential.helper store`
   * Stores credentials as plain text in `~/.git-credentials` 
-* git config --global credential.helper cache
-* git config --global credential.helper 'cache --timeout=600'
+* `git config --global credential.helper cache`
+* `git config --global credential.helper 'cache --timeout=600'`
 
 ## Git submodules
 
