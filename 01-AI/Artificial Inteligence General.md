@@ -1,4 +1,4 @@
-# Artificial Inteligence
+# Artificial Inteligence - General
 
 * https://stanford.edu/~shervine/teaching/cs-221/
 
