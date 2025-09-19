@@ -52,9 +52,9 @@ Run the following commands inside the folder containing pom.xml files
 
 ## Analyze dependencies
 * `mvn dependency:analyze` - Helps to get information on "Used undeclared dependencies", "Unused declared dependencies" etc.
-* `mvn dependency:tree` - To see dependency tree
+* `mvn -Dverbose dependency:tree` - To see dependency tree
   * `-Dverbose` - This will show options not displayed because of duplication
-  * `-Dincludes=[group]:[artifact_name]:[type]:[version]` - E.g., `mvn dependency:tree -Dincludes=:hibernate*`. Use wild card `*` to cover different possibilities
+  * `-Dincludes=[group]:[artifact_name]:[type]:[version]` - E.g., `mvn -Dverbose dependency:tree -Dincludes=:hibernate*`. Use wild card `*` to cover different possibilities
   * Ref: [filtering-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html)
   * Ref: [resolving-conflicts-using-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html)
 * `mvn versions:display-dependency-updates`
