@@ -4,4 +4,11 @@
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#05ef3c"
   }
+    "editor.renderWhitespace": "all",
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "'Hack', 'JetBrains Mono', Consolas, Menlo, Monaco, Aptos, Calibri, 'Courier New', monospace, 'Fira Code'",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": true
 }
