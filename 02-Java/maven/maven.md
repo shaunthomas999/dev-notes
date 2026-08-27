@@ -52,6 +52,7 @@ Run the following commands inside the folder containing pom.xml files
 
 ## Analyze dependencies
 * `mvn dependency:analyze` - Helps to get information on "Used undeclared dependencies", "Unused declared dependencies" etc.
+  * `mvn dependency:analyze-only` - if the classes are already compiled  
 * `mvn -Dverbose dependency:tree` - To see dependency tree
   * `-Dverbose` - This will show options not displayed because of duplication
   * `-Dincludes=[group]:[artifact_name]:[type]:[version]` - E.g., `mvn -Dverbose dependency:tree -Dincludes=:hibernate*`. Use wild card `*` to cover different possibilities
