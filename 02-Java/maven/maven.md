@@ -59,6 +59,7 @@ Run the following commands inside the folder containing pom.xml files
   * Ref: [filtering-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html)
   * Ref: [resolving-conflicts-using-the-dependency-tree](https://maven.apache.org/plugins/maven-dependency-plugin/examples/resolving-conflicts-using-the-dependency-tree.html)
 * `mvn versions:display-dependency-updates`
+* `mvn dependency:list`
 
 ### Relative dependency comparison
 * Run `mvn compile dependency:tree >> temp_v01.txt` to store dependency tree to the file
