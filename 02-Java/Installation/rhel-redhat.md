@@ -3,10 +3,13 @@
 ## alternatives
 
 * Native support for different versions of java
+* `alternatives --list`
+  * `readlink -f $(which java)` 
+* `alternatives --config java`
+* `alternatives --set java <bin_java_location>`
+  * PS: using of alias name won't work. Need to set it to correct JRE/JAVA location /bin/java 
 * `update-alternatives --install "/bin/java" "java" /usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.el7_9.x86_64/bin/java 1`
 * `update-alternatives --set java /usr/lib/jvm/java-11-openjdk-11.0.13.0.8-1.el7_9.x86_64/bin/java`
-* `alternatives --list`
-* `alternatives --config java`
 * `sudo yum remove -y java-11-openjdk`
 
 ## Home setting
