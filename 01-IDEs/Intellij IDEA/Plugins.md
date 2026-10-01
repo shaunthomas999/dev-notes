@@ -27,7 +27,9 @@
 
 * `PlantUML`
 * `Mermaid`
-* `AppMap`
+* `AppMap: Free AI Architect`
+  * Download and install - https://github.com/getappmap/appmap-js/releases
+    * Prerequisite for plugin
   * https://plugins.jetbrains.com/plugin/16701-appmap 
   * Intro - https://dev.to/appmap/visualize-the-architecture-of-your-java-app-in-intellij-idea-in-2-minutes-2dp7
   * Gradle plugin
