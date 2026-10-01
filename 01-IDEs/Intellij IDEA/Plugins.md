@@ -65,6 +65,7 @@
 * Intellij | Jetbrains
   * Analyse Dependencies - build-in
   * Dependency Structure Matrix - plugin
+    * https://www.jetbrains.com/help/idea/dsm-analysis.html 
   * Diagrams -> Show Diagram
 
 ## Others
