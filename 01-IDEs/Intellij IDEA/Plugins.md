@@ -45,6 +45,7 @@
   * pom.xml -> dependency analysis
 * `Call Graph` - only for Java
   * Not working - plugin is crashing
+  * Settings video - https://www.youtube.com/watch?v=cd8IYPVRkhI
   * `Codemap` - python, js, ts etc.
 * `DataGraph` -> xml, json, yaml etc.
 
