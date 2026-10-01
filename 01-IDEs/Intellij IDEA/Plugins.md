@@ -60,7 +60,13 @@
 
 ## XSD, WSDL and XML
 * XSD / WSDL Visualizer
-  
+
+## Maven | pom.xml dependency analysis
+* Intellij | Jetbrains
+  * Analyse Dependencies - build-in
+  * Dependency Structure Matrix - plugin
+  * Diagrams -> Show Diagram
+
 ## Others
 * `AsciiDoc`
 * `Azure`
