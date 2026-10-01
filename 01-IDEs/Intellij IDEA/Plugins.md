@@ -26,6 +26,7 @@
 ## Diagramming / UML
 
 * `PlantUML`
+* `Mermaid`
 * `AppMap`
   * https://plugins.jetbrains.com/plugin/16701-appmap 
   * Intro - https://dev.to/appmap/visualize-the-architecture-of-your-java-app-in-intellij-idea-in-2-minutes-2dp7
@@ -35,6 +36,17 @@
   * Using with Spring/Java apps - https://www.youtube.com/watch?v=bjEgdtD0AOY
     * With Java application - https://www.youtube.com/watch?v=rdpHayz4OOk
 * `SequenceDiagram`
+* `Draw Graph`
+  * Class / method call sequence
+  * Open Window on the right. Selected class/method details will be displayed on the right side
+  * Right click -> Method Call Graph, Method Usage Graph options
+  * Big files -> XML, Yaml, Json exploration
+  * Regex -> exploration
+  * pom.xml -> dependency analysis
+* `Call Graph` - only for Java
+  * Not working - plugin is crashing
+  * `Codemap` - python, js, ts etc.
+* `DataGraph` -> xml, json, yaml etc.
 
 ## Scanner - Dependency checks
 * Mend - Check / Code check
