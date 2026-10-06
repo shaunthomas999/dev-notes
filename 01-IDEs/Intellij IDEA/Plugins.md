@@ -4,9 +4,15 @@
 
 * `Rainbow Brackets`
 
-## Maven
+## Maven | pom.xml dependency analysis
 
 * `Maven Dependency Helper`
+* `Package Checker`
+* Intellij | Jetbrains
+  * Analyse Dependencies - build-in
+  * Dependency Structure Matrix - plugin
+    * https://www.jetbrains.com/help/idea/dsm-analysis.html 
+  * Diagrams -> Show Diagram
 
 ## Gitlab
 
@@ -57,20 +63,30 @@
 * `google-java-format`
   * Config -  https://github.com/google/google-java-format/blob/master/README.md#intellij-jre-config
 
-## Java / Kotlin
+## Java
 * `Lombok`
+* `Ideolog`
+
+## Spring
+* `Spring Debugger`
+
+## React
+* `React Buddy`
+
+## Angular
+* ``
 
 ## XSD, WSDL and XML
 * XSD / WSDL Visualizer
 
-## Maven | pom.xml dependency analysis
-* Intellij | Jetbrains
-  * Analyse Dependencies - build-in
-  * Dependency Structure Matrix - plugin
-    * https://www.jetbrains.com/help/idea/dsm-analysis.html 
-  * Diagrams -> Show Diagram
+## Kubernetes \ Helm
+* `KubeDiagrams` - https://kubediagrams.lille.inria.fr/
 
 ## Others
 * `AsciiDoc`
 * `Azure`
 * `Docker`
+* `Multi-Project Workspace`
+* 
+
+
