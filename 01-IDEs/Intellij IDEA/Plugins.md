@@ -52,7 +52,7 @@
   * Regex -> exploration
   * pom.xml -> dependency analysis
   * Settings
-    * className#methodName include Regexp: `^(java)\.`
+    * className#methodName exclude Regexp: `^(java)\.`
 * `Call Graph` - only for Java
   * Not working - plugin is crashing
   * Settings video - https://www.youtube.com/watch?v=cd8IYPVRkhI
@@ -76,7 +76,7 @@
 * `React Buddy`
 
 ## Angular
-* ``
+* `Angular`
 
 ## XSD, WSDL and XML
 * XSD / WSDL Visualizer
