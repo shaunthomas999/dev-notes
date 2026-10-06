@@ -51,6 +51,8 @@
   * Big files -> XML, Yaml, Json exploration
   * Regex -> exploration
   * pom.xml -> dependency analysis
+  * Settings
+    * className#methodName include Regexp: `^(java)\.`
 * `Call Graph` - only for Java
   * Not working - plugin is crashing
   * Settings video - https://www.youtube.com/watch?v=cd8IYPVRkhI
