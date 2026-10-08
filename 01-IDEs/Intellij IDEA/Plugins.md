@@ -52,7 +52,7 @@
   * Regex -> exploration
   * pom.xml -> dependency analysis
   * Settings
-    * className#methodName exclude Regexp: `^(java)\.`
+    * className#methodName exclude Regexp: `^(java)\.|.*Test(#.*)?$`
 * `Call Graph` - only for Java
   * Not working - plugin is crashing
   * Settings video - https://www.youtube.com/watch?v=cd8IYPVRkhI
